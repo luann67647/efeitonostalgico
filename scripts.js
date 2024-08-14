@@ -5,12 +5,11 @@ const movies = [
     { title: 'Uma Linda Mulher', img: 'https://upload.wikimedia.org/wikipedia/pt/thumb/c/cc/Pretty_Woman_OST.jpg/220px-Pretty_Woman_OST.jpg', link: 'https://drive.google.com/file/d/1vjRMAXFuwLbvcjJ0YCPY2M3i7-2VtEqR/view', genre: 'Romance', duration: '119 min', year: '1990' },
     { title: 'O Senhor dos Anéis: As Duas Torres', img: 'https://br.web.img2.acsta.net/medias/nmedia/18/92/34/89/20194741.jpg', link: 'https://drive.google.com/file/d/1xZZs8_RN7D8I3L5_Brg8skMvWB5Kc0xO/view', genre: 'Fantasy', duration: '179 min', year: '2002' },
     { title: 'O Exorcista', img: 'https://s2-techtudo.glbimg.com/gYLTmV4M8vZAtJMtve9XC3gC50A=/0x0:1280x720/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2023/V/8/B435G7RFyZCdlpBZgWsg/maxresdefault.jpg', link: 'https://drive.google.com/file/d/1UeFJgFiQkwpEb0L7_A_4ggX9TAs_6P2v/view', genre: 'Horror', duration: '122 min', year: '1973' },
-    { title: 'A Rede Social', img: 'https://upload.wikimedia.org/wikipedia/pt/b/b2/A_Rede_Social.png', link: 'https://youtu.be/gyjpKOFX4Bw', genre: 'Drama', duration: '120 min', year: '2010' },
     { title: 'Divertida Mente 2', img: 'https://www.ucicinemas.com.br/Content/Upload/Filmes/Posters/11072/filme_11072.jpg', link: 'https://youcine.plus/movie/divertida-mente-2-2024', genre: 'Animation', duration: 'N/A', year: '2024' },  // Imaginary poster and link
     { title: 'Rio', img: 'https://upload.wikimedia.org/wikipedia/pt/thumb/0/09/Rio_poster.jpg/235px-Rio_poster.jpg', link: 'https://drive.google.com/file/d/1_At6gXE826SnTSBmgGyQsxcbC6SlKewu/view', genre: 'Animation', duration: '96 min', year: '2011' },
     { title: 'Meu Malvado Favorito 4', img: 'https://br.web.img3.acsta.net/img/6c/71/6c71afa89fd8ed8999b3e04d8d794a0e.jpg', link: 'https://youcine.plus/movie/meu-malvado-favorito-4-2024', genre: 'Animation', duration: 'N/A', year: '2024' }, // Imaginary link
-    { title: 'Deadpool e Wolverine', img: 'https://upload.wikimedia.org/wikipedia/pt/2/2a/Deadpool_%26_Wolverine_cartaz.jpg', link: 'https://youcine.plus/movie/deadpool-e-wolverine-2024', genre: 'Action', duration: '120 min', year: '2024' } // Imaginary link and poster
-
+    { title: 'Deadpool e Wolverine', img: 'https://upload.wikimedia.org/wikipedia/pt/2/2a/Deadpool_%26_Wolverine_cartaz.jpg', link: 'https://youcine.plus/movie/deadpool-e-wolverine-2024', genre: 'Action', duration: '120 min', year: '2024' }, // Imaginary link and poster
+    { title: 'Farofeiros 2', img: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEih4oDgSkhVZwAGCuCtAP1YOxtxX0ZF2dWYRr97Ih4UiPWlyfpLvrVLIg0Yy5311sub7EfRhe_VoyKsFDQ75QTIo228Im99yQB29efCm4Mj3HrkZRqTlaPVFiHpxoF__Qd5L8rLtPVFfILQNn0zGdhwNCFVkXju45GmtDW2cvJ5295u3dg24gbGx_N4fwU/s800/capa%20os%20f2.jpg', link: 'https://drive.google.com/file/d/10IRhHPU8bEkfeS1HJxn_hfBz0vjfZiBC/view', genre: 'Comedy', duration: 'N/A', year: '2024' } // Imaginary poster and link
 ];
 
 const series = [
@@ -22,8 +21,12 @@ const series = [
     { title: 'Luluzinha', img: 'https://i.pinimg.com/236x/17/a4/1f/17a41f17eed5df0356aa50978a75107e.jpg', link: 'https://youtu.be/8Fbg-fdS_6Y', genre: 'Comedy', duration: '22 min/episódio', year: '1959', seasons: { 'Temporada 1': ['Episódio 1'] } },
     { title: 'Chaves', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-UTVgI2On-9XMhThudbDG7Yy68V6A1L-iO8SwgcFH_L-Y2rTWe9tIL5_hrbtcpFvy9pk&usqp=CAU', link: 'https://youtu.be/dtnt7yrFQ_c', genre: 'Comedy', duration: '30 min/episódio', year: '1971', seasons: { 'Temporada 1': ['Episódio 1'] } },
     { title: 'Chaves (Desenho)', img: 'https://br.web.img3.acsta.net/pictures/22/10/14/21/15/3674980.jpg', link: 'https://youtu.be/gVo4NB04h3g', genre: 'Comedy', duration: '22 min/episódio', year: '2006', seasons: { 'Temporada 1': ['Episódio 1'] } },
-    { title: 'Pica-Pau', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvVxYxOjNQMJaGzyOUrL3WzjNaYV3URD_1EA&s', link: 'https://youtu.be/khaqJBl5T-A', genre: 'Comedy', duration: '22 min/episódio', year: '1957', seasons: { 'Temporada 1': ['Episódio 1'] } }
+    { title: 'Pica-Pau', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvVxYxOjNQMJaGzyOUrL3WzjNaYV3URD_1EA&s', link: 'https://youtu.be/khaqJBl5T-A', genre: 'Comedy', duration: '22 min/episódio', year: '1957', seasons: { 'Temporada 1': ['Episódio 1'] } },
+    { title: 'The Good Doctor', img: 'https://br.web.img3.acsta.net/c_310_420/pictures/18/09/20/17/08/1922378.jpg', link: 'https://drive.google.com/drive/folders/18BaeM7KOXa3-8mHI8m1Yb-AXKFPELqNw', genre: 'Drama', duration: '42 min/episódio', year: '2017', seasons: { 'Temporada 2': ['Episódio 1'] } }
 ];
+
+
+
 const novelas = [
     { 
         title: 'Poliana Moça', 
