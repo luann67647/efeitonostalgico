@@ -664,3 +664,125 @@ main {
     margin-bottom: 10px;
     text-align: center;
 }
+header {
+    background: linear-gradient(45deg, #000, #333);
+    padding: 20px 0;
+    border-bottom: 2px solid #333;
+    text-align: center;
+}
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+header h1 {
+    font-size: 40px; /* Aumenta o tamanho do título */
+}
+
+.carousel-item .info p {
+    font-size: 16px; /* Ajusta o tamanho da fonte no carrossel */
+}
+.button {
+    background-color: #d32f2f; /* Muda a cor de fundo do botão */
+}
+
+.button:hover {
+    background-color: #c62828; /* Cor de fundo ao passar o mouse */
+}
+
+.rating-stars label {
+    color: #ffeb3b; /* Cor das estrelas de avaliação */
+}
+@media (max-width: 480px) {
+    .carousel-item {
+        width: 120px;
+        height: 200px;
+    }
+
+    .carousel-item img {
+        height: 160px;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+}
+.season-button {
+    padding: 14px 28px;
+    font-size: 18px;
+    background-color: #444;
+    color: #fff;
+    border: 2px solid #555;
+}
+
+.season-button:hover,
+.season-button.selected {
+    background-color: #f44336;
+    border-color: #f44336;
+    transform: scale(1.1);
+}
+/* Estiliza o contêiner de contato */
+.contact-container {
+    max-width: 600px; /* Define a largura máxima do formulário */
+    margin: 40px auto; /* Centraliza o contêiner com uma margem superior */
+    padding: 30px; /* Adiciona mais espaço interno */
+    background-color: #1c1c1c; /* Fundo escuro para o contêiner */
+    border-radius: 12px; /* Borda arredondada mais pronunciada */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5); /* Sombra mais forte */
+}
+
+/* Estiliza o título do formulário */
+.contact-container h1 {
+    font-size: 2.5em; /* Tamanho maior do título */
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+    color: #e50914; /* Cor vermelha da Netflix */
+    text-align: center;
+    font-weight: 700; /* Negrito para destacar o título */
+}
+
+/* Estiliza o formulário */
+#contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-form label {
+    margin-bottom: 8px; /* Espaçamento abaixo dos rótulos */
+    font-weight: bold;
+    color: #e50914; /* Cor vermelha da Netflix para os rótulos */
+    font-size: 1.1em; /* Tamanho maior dos rótulos */
+}
+
+#contact-form input,
+#contact-form textarea {
+    padding: 12px; /* Mais espaço interno */
+    border: 1px solid #444; /* Borda escura para os campos */
+    border-radius: 8px; /* Bordas mais arredondadas */
+    margin-bottom: 20px; /* Espaçamento maior entre os campos */
+    background-color: #333; /* Fundo escuro para os campos */
+    color: #fff; /* Texto branco para os campos */
+    font-size: 1em; /* Tamanho da fonte para melhor legibilidade */
+}
+
+#contact-form textarea {
+    resize: vertical; /* Permite redimensionar a área de texto verticalmente */
+}
+
+#contact-form button {
+    padding: 12px 25px; /* Mais espaço interno */
+    background-color: #e50914; /* Cor vermelha da Netflix para o botão */
+    border: none;
+    border-radius: 8px; /* Bordas arredondadas */
+    color: #fff; /* Texto branco no botão */
+    font-size: 1.1em; /* Tamanho maior da fonte no botão */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Transições para cor e efeito de clique */
+}
+
+#contact-form button:hover {
+    background-color: #b81d24; /* Cor vermelha mais escura para o efeito hover */
+    transform: scale(1.05); /* Leve aumento do botão ao passar o mouse */
+}
+
+#contact-form button:active {
+    transform: scale(0.98); /* Leve redução do botão ao clicar */
+}
