@@ -1,5 +1,5 @@
 
-const movies = [
+const movies  = [
     { title: 'O Poderoso Chefão 2', img: 'https://pbs.twimg.com/media/FxfaE4fXsAID4Fz.jpg:large', link: 'https://drive.google.com/file/d/1YtsfkCzXzjnnPASbKOIyRBFOcTcnaQRw/view', genre: 'Crime', duration: '175 min', year: '1974' },
     { title: 'Star Wars: Episódio IV', img: 'https://m.media-amazon.com/images/I/612h-jwI+EL._AC_UF1000,1000_QL80_.jpg', link: 'https://drive.google.com/file/d/1vZDRk35V-NbMKFXvH7ps5SsUKB3xJr48/view', genre: 'Sci-Fi', duration: '121 min', year: '1977' },
     { title: 'Uma Linda Mulher', img: 'https://upload.wikimedia.org/wikipedia/pt/thumb/c/cc/Pretty_Woman_OST.jpg/220px-Pretty_Woman_OST.jpg', link: 'https://drive.google.com/file/d/1vjRMAXFuwLbvcjJ0YCPY2M3i7-2VtEqR/view', genre: 'Romance', duration: '119 min', year: '1990' },
@@ -122,6 +122,11 @@ const novelas = [
 
 
 
+document.getElementById('logout-button').addEventListener('click', () => {
+    // Aqui você pode limpar dados de sessão ou cookies se necessário
+    // E redirecionar para a página de login
+    window.location.href = 'login.html';
+});
 
 
 
@@ -415,5 +420,6 @@ document.querySelectorAll('.carousel-item').forEach(item => {
         const allItems = [...movies, ...series, ...novelas, ...channels];
         const selectedItem = allItems.find(i => i.title === title);
         showModal(selectedItem);
+        
     });
 });
