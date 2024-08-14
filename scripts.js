@@ -24,8 +24,6 @@ const series = [
     { title: 'Chaves (Desenho)', img: 'https://br.web.img3.acsta.net/pictures/22/10/14/21/15/3674980.jpg', link: 'https://youtu.be/gVo4NB04h3g', genre: 'Comedy', duration: '22 min/episódio', year: '2006', seasons: { 'Temporada 1': ['Episódio 1'] } },
     { title: 'Pica-Pau', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvVxYxOjNQMJaGzyOUrL3WzjNaYV3URD_1EA&s', link: 'https://youtu.be/khaqJBl5T-A', genre: 'Comedy', duration: '22 min/episódio', year: '1957', seasons: { 'Temporada 1': ['Episódio 1'] } }
 ];
-
-
 const novelas = [
     { 
         title: 'Poliana Moça', 
@@ -82,29 +80,45 @@ const novelas = [
             'Temporada 1': ['Episódio 1'] 
         } 
     },
+   
+   
     { 
-        title: 'Meu Pecado', 
-        img: 'https://www.tribunapr.com.br/wp-content/uploads/sites/36/2023/08/11094103/meu-pecado.jpg', 
-        link: 'https://ok.ru/video/3510876572256', 
+        title: 'Gênesis', 
+        img: 'https://upload.wikimedia.org/wikipedia/pt/e/e1/G%C3%AAnesis_logo.jpeg', 
+        link: 'https://www.dailymotion.com/video/x7yxaya', 
         genre: 'Drama', 
         duration: '50 min/episódio', 
-        year: '2009', 
+        year: '2021', 
         seasons: { 
             'Temporada 1': ['Episódio 1'] 
         } 
     },
     { 
-        title: 'Amanhã é Para Sempre', 
-        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAP6QnD70oEAPBV8sxxnToN0PlBg9rx4eWFA&s', 
-        link: 'https://canalnatelinhaonline.blogspot.com/2018/02/amanha-e-para-sempre-capitulo-1-sem.html', 
+        title: 'Revelação', 
+        img: 'https://imagem.natelinha.uol.com.br/grande/img20130126150815.jpg', 
+        link: 'https://www.dailymotion.com/video/x8nwmvi', 
         genre: 'Drama', 
         duration: '50 min/episódio', 
-        year: '2008', 
+        year: '2022', 
+        seasons: { 
+            'Temporada 1': ['Episódio 1'] 
+        } 
+    },
+    { 
+        title: 'Os Dez Mandamentos', 
+        img: 'https://upload.wikimedia.org/wikipedia/pt/9/91/Logotipo_de_Os_Dez_Mandamentos.png', 
+        link: 'https://www.dailymotion.com/video/x8encl2', 
+        genre: 'Drama', 
+        duration: '50 min/episódio', 
+        year: '2015', 
         seasons: { 
             'Temporada 1': ['Episódio 1'] 
         } 
     }
 ];
+
+
+
 
 
 
