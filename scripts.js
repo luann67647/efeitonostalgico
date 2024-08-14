@@ -1,13 +1,18 @@
+
 const movies = [
     { title: 'O Poderoso Chefão 2', img: 'https://pbs.twimg.com/media/FxfaE4fXsAID4Fz.jpg:large', link: 'https://drive.google.com/file/d/1YtsfkCzXzjnnPASbKOIyRBFOcTcnaQRw/view', genre: 'Crime', duration: '175 min', year: '1974' },
-    { title: 'Star Wars: Episódio IV ', img: 'https://m.media-amazon.com/images/I/612h-jwI+EL._AC_UF1000,1000_QL80_.jpg', link: 'https://drive.google.com/file/d/1vZDRk35V-NbMKFXvH7ps5SsUKB3xJr48/view', genre: 'Crime', duration: '151 min', year: '2006' },
-    { title: 'Uma Linda Mulher', img: 'https://br.web.img2.acsta.net/medias/nmedia/18/95/60/14/20417708.jpg', link: 'https://drive.google.com/file/d/1vjRMAXFuwLbvcjJ0YCPY2M3i7-2VtEqR/view', genre: 'Sci-Fi', duration: '148 min', year: '2010' },
-    { title: 'O Senhor dos Anéis AS Duas Torres', img: 'https://br.web.img2.acsta.net/medias/nmedia/18/92/34/89/20194741.jpg', link: 'https://drive.google.com/drive/folders/0BxYfydc53aj7LVdGemlTN2MxZmc?resourcekey=0-K3seOz2wN6nnJfkQ79OJHg', genre: 'Fantasy', duration: '178 min', year: '1990' },
-    { title: 'Interstellar', img: 'https://m.media-amazon.com/images/S/pv-target-images/8698aa0aa73e5acae0d4ec7fd46e6be40e7b9bd14668ce6d8694ae7442d2a722.jpg', link: 'https://drive.google.com/file/d/1hrjLEbpfp1Lao6kGsfI4ftMI2phrLZ-c/view', genre: 'Sci-Fi', duration: '169 min', year: '2014' },
-    { title: 'O Exorcista', img: 'https://s2-techtudo.glbimg.com/gYLTmV4M8vZAtJMtve9XC3gC50A=/0x0:1280x720/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2023/V/8/B435G7RFyZCdlpBZgWsg/maxresdefault.jpg', link: 'https://drive.google.com/drive/folders/1-egYkAf2Eq_P41IaxZx_8H12TnWMHzPx', genre: 'Horror', duration: '122 min', year: '1973' },
-    { title: 'Pulp Fiction', img: 'https://http2.mlstatic.com/D_NQ_NP_814050-MLA75849537199_042024-OO.jpg', link: 'https://drive.google.com/file/d/1q_S0EC9E804bAftobsEoAQUwXjab_CW8/view', genre: 'Crime', duration: '154 min', year: '1994' },
-    { title: 'A Rede Social', img: 'https://upload.wikimedia.org/wikipedia/pt/b/b2/A_Rede_Social.png', link: 'https://youtu.be/gyjpKOFX4Bw', genre: 'Drama', duration: '120 min', year: '2010' }
+    { title: 'Star Wars: Episódio IV', img: 'https://m.media-amazon.com/images/I/612h-jwI+EL._AC_UF1000,1000_QL80_.jpg', link: 'https://drive.google.com/file/d/1vZDRk35V-NbMKFXvH7ps5SsUKB3xJr48/view', genre: 'Sci-Fi', duration: '121 min', year: '1977' },
+    { title: 'Uma Linda Mulher', img: 'https://upload.wikimedia.org/wikipedia/pt/thumb/c/cc/Pretty_Woman_OST.jpg/220px-Pretty_Woman_OST.jpg', link: 'https://drive.google.com/file/d/1vjRMAXFuwLbvcjJ0YCPY2M3i7-2VtEqR/view', genre: 'Romance', duration: '119 min', year: '1990' },
+    { title: 'O Senhor dos Anéis: As Duas Torres', img: 'https://br.web.img2.acsta.net/medias/nmedia/18/92/34/89/20194741.jpg', link: 'https://drive.google.com/file/d/1xZZs8_RN7D8I3L5_Brg8skMvWB5Kc0xO/view', genre: 'Fantasy', duration: '179 min', year: '2002' },
+    { title: 'O Exorcista', img: 'https://s2-techtudo.glbimg.com/gYLTmV4M8vZAtJMtve9XC3gC50A=/0x0:1280x720/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2023/V/8/B435G7RFyZCdlpBZgWsg/maxresdefault.jpg', link: 'https://drive.google.com/file/d/1UeFJgFiQkwpEb0L7_A_4ggX9TAs_6P2v/view', genre: 'Horror', duration: '122 min', year: '1973' },
+    { title: 'A Rede Social', img: 'https://upload.wikimedia.org/wikipedia/pt/b/b2/A_Rede_Social.png', link: 'https://youtu.be/gyjpKOFX4Bw', genre: 'Drama', duration: '120 min', year: '2010' },
+    { title: 'Divertida Mente 2', img: 'https://www.ucicinemas.com.br/Content/Upload/Filmes/Posters/11072/filme_11072.jpg', link: 'https://youcine.plus/movie/divertida-mente-2-2024', genre: 'Animation', duration: 'N/A', year: '2024' },  // Imaginary poster and link
+    { title: 'Rio', img: 'https://upload.wikimedia.org/wikipedia/pt/thumb/0/09/Rio_poster.jpg/235px-Rio_poster.jpg', link: 'https://drive.google.com/file/d/1_At6gXE826SnTSBmgGyQsxcbC6SlKewu/view', genre: 'Animation', duration: '96 min', year: '2011' },
+    { title: 'Meu Malvado Favorito 4', img: 'https://br.web.img3.acsta.net/img/6c/71/6c71afa89fd8ed8999b3e04d8d794a0e.jpg', link: 'https://youcine.plus/movie/meu-malvado-favorito-4-2024', genre: 'Animation', duration: 'N/A', year: '2024' }, // Imaginary link
+    { title: 'Deadpool e Wolverine', img: 'https://upload.wikimedia.org/wikipedia/pt/2/2a/Deadpool_%26_Wolverine_cartaz.jpg', link: 'https://youcine.plus/movie/deadpool-e-wolverine-2024', genre: 'Action', duration: '120 min', year: '2024' } // Imaginary link and poster
+
 ];
+
 const series = [
     { title: 'O Castelo Rá-Tim-Bum', img: 'https://m.media-amazon.com/images/M/MV5BNTllYmZmNDAtZTU2ZC00MWVhLWIzYzUtMjQzYmEwYTgwNDNkXkEyXkFqcGdeQXVyMTY2MzYyNzA@._V1_FMjpg_UX1000_.jpg', link: 'https://libreflix.org/assistir/castelo-ratimbum', genre: 'Children', duration: '30 min/episódio', year: '1994', seasons: { 'Temporada 1': ['Episódio 1'] } },
     { title: 'Gravity Falls', img: 'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/03A4EB3D71AE0BE1E33A9FC6A0D7DF2C2679A96CB22F776104E43F563BA014C9/scale?width=1200&aspectRatio=1.78&format=webp', link: 'https://drive.google.com/drive/folders/1hV7rvy7XGOw1KJxDQ_0JKIgE3en8fMLn', genre: 'Adventure', duration: '22 min/episódio', year: '2012', seasons: { 'Temporada 1': ['Episódio 1'] } },
@@ -100,7 +105,6 @@ const novelas = [
         } 
     }
 ];
-
 
 
 
