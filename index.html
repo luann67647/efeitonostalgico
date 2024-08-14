@@ -5,33 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>O Efeito Nostalgia</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <header>
+        
+
         <div class="container">
             <img src="https://www10.trf2.jus.br/ccjf/wp-content/uploads/sites/9/2022/09/cinema_negro_site6.png" alt="O Efeito Nostálgico" class="logo">
             <h1>O Efeito Nostalgia</h1>
             
-  <!-- Barra de pesquisa -->
- <div class="search-container">
-    <input type="text" id="search-input" placeholder="Pesquisar...">
-    <button id="search-button"><i class="fa fa-search"></i></button>
- </div>
- <!-- Contêiner para resultados da pesquisa -->
- <div class="search-results"></div>
-   
-
-                 
-                </form>
+            <!-- Barra de pesquisa -->
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Pesquisar...">
+                <button id="search-button"><i class="fa fa-search"></i></button>
             </div>
+            
+            <!-- Contêiner para resultados da pesquisa -->
+            <div class="search-results"></div>
+            
+           
+            </div>
+            
             
         </div>
     </header>
     <main>
-        <!-- Seção de Filmes -->
+        <!-- Seção de Filmes Drive -->
         <div class="content">
-            <h2>Filmes</h2>
+            <h2>Filmes Drive</h2>
             <div class="carousel-container">
                 <button class="carousel-button prev">&lt;</button>
                 <div class="carousel movie-carousel">
@@ -56,9 +57,9 @@
             </div>
         </div>
 
-        <!-- Seção de Séries -->
+        <!-- Seção de Séries Drive -->
         <div class="content">
-            <h2>Séries</h2>
+            <h2>Séries Drive</h2>
             <div class="carousel-container">
                 <button class="carousel-button prev">&lt;</button>
                 <div class="carousel series-carousel">
@@ -83,7 +84,7 @@
             </div>
                 <!-- Seção de Doramas -->
         <div class="content">
-            <h2>Doramas</h2>
+            <h2>Doramas Youtube</h2>
             <div class="carousel-container">
                 <button class="carousel-button prev">&lt;</button>
                 <div class="carousel doramas-carousel">
@@ -143,7 +144,7 @@
 
         <!-- Seção de Novelas -->
         <div class="content">
-            <h2>Novelas</h2>
+            <h2>Novelas Youtube</h2>
             <div class="carousel-container">
                 <button class="carousel-button prev">&lt;</button>
                 <div class="carousel novelas-carousel">
@@ -185,7 +186,7 @@
         </div>
            <!-- <h2>Livros Históricos</h2> -->
 <div class="content">
-    <h2 class="carousel-title">Livros Nostálgicos</h2>
+    <h2 class="carousel-title">Livros Nostálgicos PDF </h2>
     <div class="carousel-container">
         <button class="carousel-button prev">&lt;</button>
         <div class="carousel books-carousel">
@@ -244,7 +245,7 @@
             </div>
            <!-- Nova Seção de Mangas -->
 <div class="content">
-    <h2>Mangás</h2>
+    <h2>Mangás Link</h2>
     <div class="carousel-container">
         <button class="carousel-button prev">&lt;</button>
         <div class="carousel manga-carousel">
@@ -308,7 +309,7 @@
 
         <!-- Seção de Canais ao Vivo -->
         <div class="content">
-            <h2>Canais ao Vivo</h2>
+            <h2>Canais ao Vivo Youtube</h2>
             <div class="carousel-container">
                 <button class="carousel-button prev">&lt;</button>
                 <div class="carousel live-carousel">
@@ -368,7 +369,7 @@
             </div>
 <!-- <h2>Jogos Históricos</h2> -->
 <div class="content">
-    <h2>Jogos Históricos</h2>
+    <h2>Jogos Históricos Youtube</h2>
     <div class="carousel-container">
         <button class="carousel-button prev">&lt;</button>
         <div class="carousel brazilian-league-carousel">
@@ -468,11 +469,33 @@
                     <label for="star1" title="1 estrela"><span class="fa fa-star"></span></label>
                 </div>
                 
+                
             </div>
+            <!-- Adicione isso ao cabeçalho ou ao menu -->
+    <button id="logout-button">Sair</button>
+
+        </div> <div class="contact-container">
+            <h1>Contato</h1>
+            <form id="contact-form">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
         </div>
+        <script src="contact.js"></script>
+
     </main>
     <script src="scripts.js"></script>
 </body>
 </html>
+
+ 
 
  
