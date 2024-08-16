@@ -786,3 +786,65 @@ header h1 {
 #contact-form button:active {
     transform: scale(0.98); /* Leve redução do botão ao clicar */
 }
+/* Media Queries para diferentes tamanhos de tela */
+
+/* Para telas pequenas (celulares em modo retrato) */
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 28px;
+    }
+
+    header .logo {
+        width: 150px;
+    }
+
+    header input[type="text"] {
+        font-size: 14px;
+        padding: 8px 40px 8px 10px;
+    }
+
+    #search-button i {
+        font-size: 18px;
+    }
+}
+
+/* Para telas médias (tablets) */
+@media (min-width: 481px) and (max-width: 768px) {
+    header h1 {
+        font-size: 32px;
+    }
+
+    header .logo {
+        width: 180px;
+    }
+
+    header input[type="text"] {
+        font-size: 15px;
+        padding: 9px 45px 9px 12px;
+    }
+
+    #search-button i {
+        font-size: 19px;
+    }
+}
+
+/* Para telas grandes (desktops) */
+@media (min-width: 769px) {
+    header h1 {
+        font-size: 36px;
+    }
+
+    header .logo {
+        width: 200px;
+    }
+
+    header input[type="text"] {
+        font-size: 16px;
+        padding: 10px 50px 10px 15px;
+    }
+
+    #search-button i {
+        font-size: 20px;
+    }
+}
+
