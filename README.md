@@ -1,36 +1,39 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>O Efeito Nostalgia</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memórias em Cena</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <header>
-        <div class="container">
-            <img src="https://www10.trf2.jus.br/ccjf/wp-content/uploads/sites/9/2022/09/cinema_negro_site6.png" alt="O Efeito Nostálgico" class="logo">
-            <h1>O Efeito Nostalgia</h1>
-            
-  <!-- Barra de pesquisa -->
- <div class="search-container">
-    <input type="text" id="search-input" placeholder="Pesquisar...">
-    <button id="search-button"><i class="fa fa-search"></i></button>
- </div>
- <!-- Contêiner para resultados da pesquisa -->
- <div class="search-results"></div>
-   
+        
 
-                 
-                </form>
+        <div class="container">
+            <img src="https://media.cdnandroid.com/item_images/1243376/imagen-megaflix-filmes-series-e-animes-0ori.jpg" alt="O Efeito Nostálgico" class="logo">
+            <h1>Memórias em Cena</h1>
+            
+            <!-- Barra de pesquisa -->
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Pesquisar...">
+                <button id="search-button"><i class="fa fa-search"></i></button>
             </div>
+            
+            <!-- Contêiner para resultados da pesquisa -->
+            <div class="search-results"></div>
+            
+           
+            </div>
+            
+            
         </div>
     </header>
     <main>
-        <!-- Seção de Filmes -->
+        <!-- Seção de Filmes Drive -->
         <div class="content">
-            <h2>Filmes</h2>
+            <h2>Filmes Drive</h2>
             <div class="carousel-container">
                 <button class="carousel-button prev">&lt;</button>
                 <div class="carousel movie-carousel">
@@ -55,9 +58,9 @@
             </div>
         </div>
 
-        <!-- Seção de Séries -->
+        <!-- Seção de Séries Drive -->
         <div class="content">
-            <h2>Séries</h2>
+            <h2>Séries Drive</h2>
             <div class="carousel-container">
                 <button class="carousel-button prev">&lt;</button>
                 <div class="carousel series-carousel">
@@ -80,11 +83,69 @@
                 </div>
                 <button class="carousel-button next">&gt;</button>
             </div>
+                <!-- Seção de Doramas -->
+        <div class="content">
+            <h2>Doramas Youtube</h2>
+            <div class="carousel-container">
+                <button class="carousel-button prev">&lt;</button>
+                <div class="carousel doramas-carousel">
+                    <!-- Exemplos de itens do carrossel de doramas -->
+                    <div class="carousel-item dorama">
+                        <img src="https://1.vikiplatform.com/c/38553c/f8ba368f25.jpg?x=b" alt="Doramas 1">
+                        <div class="info">
+                            <p>Nosso Segredo</p>
+                            <a href="https://www.youtube.com/watch?v=bthk1OhddGc&list=PL1fMwhwIlcCFyLZtYAij6gzB2mdJILXXp" class="button">Assistir</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item dorama">
+                        <img src="https://1.vikiplatform.com/c/38912c/994ee1097f.jpg?x=b" alt="Doramas 2">
+                        <div class="info">
+                            <p>Amor Inesquecível </p>
+                            <a href="https://www.youtube.com/watch?v=aCTR7UQ4Zro&list=PL1fMwhwIlcCGizehQU76UyOl_sUMR0oAe&index=2" class="button">Assistir</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item dorama">
+                        <img src="https://i.ytimg.com/vi/nbsUjQtY05g/hq720.jpg?sqp=-oaymwEXCK4FEIIDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLC4bgY8_n9Htu2kExnTdVwQ3xbBhA" alt="Doramas 3">
+                        <div class="info">
+                            <p> Só por Amor </p>
+                            <a href="https://www.youtube.com/watch?v=nbsUjQtY05g&list=PL1fMwhwIlcCHk2EFKdi9Q79h8Ki9dtTuX" class="button">Assistir</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item dorama">
+                        <img src="https://i.ytimg.com/vi/tBkBV_lwKGQ/maxresdefault.jpg" alt="Doramas 4">
+                        <div class="info">
+                            <p>Você é o Meu Destino   </p>
+                            <a href="https://www.youtube.com/watch?v=tBkBV_lwKGQ&list=PL_cslNq0e0_UZLVrss_1Ah-vAJYJPHP6P" class="button">Assistir</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item dorama">
+                        <img src="https://i.ytimg.com/vi/4YMowHdjEtI/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCyIiY3NdO_U7PFmPig6ilo3qZzZQ" alt="Doramas 5">
+                        <div class="info">
+                            <p>Amor Eterno  </p>
+                            <a href="https://www.youtube.com/watch?v=fyLHiiDjPRo&list=PL_cslNq0e0_V2r2YEnN5oqU-6RpDeSl1b" class="button">Assistir</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item dorama">
+                        <img src="https://i.ytimg.com/vi/xNlHu35xrNo/maxresdefault.jpg" alt="Doramas 6">
+                        <div class="info">
+                            <p>Um Amor Lindo Demais </p>
+                            <a href="https://www.youtube.com/watch?v=xNlHu35xrNo" class="button">Assistir</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item dorama">
+                        <img src="https://i.ytimg.com/vi/7sZx4Fdg2bQ/maxresdefault.jpg" alt="Doramas 7">
+                        <div class="info">
+                            <p>Você é Esperança </p>
+                            <a href="https://www.youtube.com/watch?v=7sZx4Fdg2bQ" class="button">Assistir</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-button next">&gt;</button>
         </div>
 
         <!-- Seção de Novelas -->
         <div class="content">
-            <h2>Novelas</h2>
+            <h2>Novelas Youtube</h2>
             <div class="carousel-container">
                 <button class="carousel-button prev">&lt;</button>
                 <div class="carousel novelas-carousel">
@@ -126,7 +187,7 @@
         </div>
            <!-- <h2>Livros Históricos</h2> -->
 <div class="content">
-    <h2 class="carousel-title">Livros Nostálgicos</h2>
+    <h2 class="carousel-title">Livros Nostálgicos PDF </h2>
     <div class="carousel-container">
         <button class="carousel-button prev">&lt;</button>
         <div class="carousel books-carousel">
@@ -147,7 +208,7 @@
             <div class="carousel-item book">
                 <img src="https://veja.abril.com.br/wp-content/uploads/2016/12/Diario-de-Um-Banana-Rodrick-E-O-Cara.jpg?crop=1&resize=1212,909" alt="Livro 3">
                 <div class="info">
-                    <p>Diário de um Banana Vol 2</p>
+                    <p>Diário de um Banana </p>
                     <a href="https://servicos.seara.sc.gov.br/uploads/sites/335/2021/12/1751618_DIARIO_DE_UM_BANANA____Rodrick_e_Jeff_Kinney_5161506256.pdf" class="button" target="_blank">Ler</a>
                 </div>
             </div>
@@ -185,7 +246,7 @@
             </div>
            <!-- Nova Seção de Mangas -->
 <div class="content">
-    <h2>Mangás</h2>
+    <h2>Mangás Link</h2>
     <div class="carousel-container">
         <button class="carousel-button prev">&lt;</button>
         <div class="carousel manga-carousel">
@@ -193,49 +254,49 @@
             <div class="carousel-item manga">
                 <img src="https://i5.walmartimages.com/seo/My-Hero-Academia-Shota-Aizawa-Action-Figure-7_9599736b-81a7-4630-adcf-47d8ddb25816.88674f1f269a024f78d42901a400612c.jpeg" alt="Manga 1">
                 <div class="info">
-                    <p>Boku no Hero cap 406</p>
+                    <p>Boku no Hero 406</p>
                     <a href="https://mangaonline.biz/capitulo/boku-no-hero-academia-capitulo-406/" class="button">Ler</a>
                 </div>
             </div>
             <div class="carousel-item manga">
                 <img src="https://seeklogo.com/images/J/jujutsu-no-kaisen-logo-E3E409F37B-seeklogo.com.png" alt="Manga 2">
                 <div class="info">
-                    <p>Jujutsu Kaisen Cap 265</p>
+                    <p>Jujutsu Kaisen 265</p>
                     <a href="https://mangaonline.biz/capitulo/jujutsu-kaisen-capitulo-265/" class="button">Ler</a>
                 </div>
             </div>
             <div class="carousel-item manga">
                 <img src="https://pm1.aminoapps.com/8871/92264e489f8a8355fb97554d86bc4a6705bad104r1-400-400v2_00.jpg" alt="Manga 3">
                 <div class="info">
-                    <p>Boruto: Two Blue Vortex Cap 1</p>
+                    <p>Boruto: Two Blue Vortex  1</p>
                     <a href="https://mangaonline.biz/capitulo/boruto-two-blue-vortex-capitulo-1/" class="button">Ler</a>
                 </div>
             </div>
             <div class="carousel-item manga">
                 <img src="https://i.pinimg.com/474x/4a/17/1f/4a171f2bfd2e242c8f60da4f4a857c2f.jpg" alt="Manga 4">
                 <div class="info">
-                    <p>Kimetsu no Yaiba Cap 140</p>
+                    <p>Kimetsu no Yaiba  140</p>
                     <a href="https://mangaonline.biz/capitulo/kimetsu-no-yaiba-capitulo-140/" class="button">Ler</a>
                 </div>
             </div>
             <div class="carousel-item manga">
                 <img src="https://i.pinimg.com/originals/ee/20/ba/ee20ba1558d5c4f2fbd21c928855fbed.png" alt="Manga 5">
                 <div class="info">
-                    <p>Bleach Cap 1</p>
+                    <p>Bleach  1</p>
                     <a href="https://mangaonline.biz/capitulo/bleach-capitulo-1/" class="button">Ler</a>
                 </div>
             </div>
             <div class="carousel-item manga">
                 <img src="https://mangaonline.biz/wp-content/uploads/2022/10/img_or30031910_0003.jpg" alt="Manga 6">
                 <div class="info">
-                    <p>Spy X Family Cap 1</p>
+                    <p>Spy X Family 1</p>
                     <a href="https://mangaonline.biz/capitulo/spy-x-family-capitulo-1/" class="button">Ler</a>
                 </div>
             </div>
             <div class="carousel-item manga">
                 <img src="https://lh6.googleusercontent.com/proxy/okAlaz0djfdxhrDM-wVI9_pfYyN0N9kmL2qdma6_jnRHa-Hn5GUyBllovQiBdckptO06n22RannOd99iniEqc1bWjJzPHEtdhCd83G_7Xb-bhPzKMwZgq5eyhgo3iVIkWXjN0Kdg5V-xKn-9RbgsSQ" alt="Manga 7">
                 <div class="info">
-                    <p>One Piece Cap 1098 </p>
+                    <p>One Piece 1098 </p>
                     <a href="https://mangaonline.biz/capitulo/one-piece-capitulo-1098/" class="button">Ler</a>
                 </div>
             </div>
@@ -249,7 +310,7 @@
 
         <!-- Seção de Canais ao Vivo -->
         <div class="content">
-            <h2>Canais ao Vivo</h2>
+            <h2>Canais ao Vivo Youtube</h2>
             <div class="carousel-container">
                 <button class="carousel-button prev">&lt;</button>
                 <div class="carousel live-carousel">
@@ -309,7 +370,7 @@
             </div>
 <!-- <h2>Jogos Históricos</h2> -->
 <div class="content">
-    <h2>Jogos Históricos</h2>
+    <h2>Jogos Históricos Youtube</h2>
     <div class="carousel-container">
         <button class="carousel-button prev">&lt;</button>
         <div class="carousel brazilian-league-carousel">
@@ -409,11 +470,33 @@
                     <label for="star1" title="1 estrela"><span class="fa fa-star"></span></label>
                 </div>
                 
+                
             </div>
+            <!-- Adicione isso ao cabeçalho ou ao menu -->
+    <button id="logout-button">Sair</button>
+
+        </div> <div class="contact-container">
+            <h1>Contato</h1>
+            <form id="contact-form">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
         </div>
+        <script src="contact.js"></script>
+
     </main>
     <script src="scripts.js"></script>
 </body>
 </html>
+
+ 
 
  
