@@ -846,30 +846,4 @@ header h1 {
     #search-button i {
         font-size: 20px;
     }
-    .modal {
-    background-color: rgba(0, 0, 0, 0.8); /* Torna o fundo do modal mais escuro */
 }
-.button, .season-button {
-    transition: background-color 0.3s ease, transform 0.3s ease;
-}
-.carousel-item img {
-    height: auto; /* Ajuste a altura para manter a proporção */
-}
-#contact-form input, #contact-form textarea {
-    margin-bottom: 15px; /* Espaço entre os campos do formulário */
-}
-@media (max-width: 480px) {
-    .contact-container {
-        padding: 20px; /* Reduz o padding em telas menores */
-    }
-    #contact-form input, #contact-form textarea {
-        font-size: 14px; /* Ajusta o tamanho da fonte em dispositivos móveis */
-    }
-    .carousel-item {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Sombra mais sutil */
-}
-
-}
-
-}
-
