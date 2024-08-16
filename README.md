@@ -18,7 +18,7 @@ Quando você entra em **Memórias em Cena**, você não está apenas navegando p
 
 Você pode estar se perguntando: **"O que realmente se esconde por trás das memórias?"** A resposta está ao seu alcance, esperando para ser descoberta. 
 
-🌐 *** 🌐
+🌐 https://efeitonostalgico.vercel.app/ 🌐
 
 Apenas os mais audaciosos irão conseguir desvendar todos os mistérios. Está pronto para enfrentar o desconhecido? Venha e descubra o que está escondido nas memórias que moldam nosso mundo.
 
