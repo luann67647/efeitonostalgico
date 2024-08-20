@@ -126,6 +126,57 @@ document.getElementById('logout-button').addEventListener('click', () => {
     // E redirecionar para a página de login
     window.location.href = 'login.html';
 });
+document.addEventListener('DOMContentLoaded', function () {
+    // Seleciona todos os botões de "Responder"
+    const replyButtons = document.querySelectorAll('.reply-button');
+
+    // Adiciona um evento de clique para cada botão de "Responder"
+    replyButtons.forEach(button => {
+        button.addEventListener('click', function () {
+            // Seleciona a área de resposta correspondente
+            const replyArea = this.nextElementSibling;
+
+            // Alterna a visibilidade da área de resposta
+            if (replyArea.style.display === 'none' || replyArea.style.display === '') {
+                replyArea.style.display = 'block';
+            } else {
+                replyArea.style.display = 'none';
+            }
+        });
+    });
+
+    // Seleciona todos os botões de enviar resposta
+    const submitReplyButtons = document.querySelectorAll('.submit-reply');
+
+    // Adiciona um evento de clique para cada botão de enviar resposta
+    submitReplyButtons.forEach(button => {
+        button.addEventListener('click', function () {
+            // Seleciona a área de resposta correspondente
+            const replyArea = this.parentElement;
+            const textarea = replyArea.querySelector('textarea');
+            const replyText = textarea.value.trim();
+
+            // Verifica se o texto não está vazio
+            if (replyText !== '') {
+                // Cria um novo elemento para a resposta
+                const replyDiv = document.createElement('div');
+                replyDiv.classList.add('comentario-resposta');
+                replyDiv.textContent = replyText;
+
+                // Adiciona a resposta ao final do comentário original
+                replyArea.parentElement.appendChild(replyDiv);
+
+                // Limpa o campo de texto
+                textarea.value = '';
+
+                // Oculta a área de resposta
+                replyArea.style.display = 'none';
+            } else {
+                alert('Por favor, insira uma resposta antes de enviar.');
+            }
+        });
+    });
+});
 
 
 

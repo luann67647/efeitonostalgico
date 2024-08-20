@@ -756,3 +756,112 @@ header h1 {
 #contact-form button:active {
     transform: scale(0.98); /* Leve redução do botão ao clicar */
 }
+/* Estrutura geral da seção de comentários */
+#comentarios-section {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Título da seção */
+#comentarios-section h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Cada comentário individual */
+.comentario {
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+/* Nome do usuário */
+.comentario .user-name {
+    font-weight: bold;
+    font-size: 18px;
+    color: #007bff;
+}
+
+/* Texto do comentário */
+.comentario .comment-text {
+    font-size: 16px;
+    color: #555;
+    margin-top: 5px;
+    line-height: 1.5;
+}
+
+/* Data e hora do comentário */
+.comentario .comment-date {
+    font-size: 14px;
+    color: #888;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+
+/* Botão de resposta */
+.comentario .reply-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.comentario .reply-button:hover {
+    background-color: #0056b3;
+}
+
+/* Área de resposta */
+.reply-area {
+    margin-top: 20px;
+    display: none;
+}
+
+.reply-area textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    resize: vertical;
+}
+
+.reply-area .submit-reply {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.reply-area .submit-reply:hover {
+    background-color: #218838;
+}
+/* Estilo para respostas adicionadas */
+.comentario-resposta {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #e9ecef;
+    border-left: 3px solid #007bff;
+    border-radius: 4px;
+    font-size: 15px;
+    color: #333;
+}
