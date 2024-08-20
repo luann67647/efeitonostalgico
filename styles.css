@@ -729,7 +729,7 @@ header h1 {
     border-radius: 8px; /* Bordas mais arredondadas */
     margin-bottom: 20px; /* Espaçamento maior entre os campos */
     background-color: #333; /* Fundo escuro para os campos */
-    color: #fff; /* Texto branco para os campos */
+    color: #a80505; /* Texto branco para os campos */
     font-size: 1em; /* Tamanho da fonte para melhor legibilidade */
 }
 
@@ -742,7 +742,7 @@ header h1 {
     background-color: #e50914; /* Cor vermelha da Netflix para o botão */
     border: none;
     border-radius: 8px; /* Bordas arredondadas */
-    color: #fff; /* Texto branco no botão */
+    color: #1b1717; /* Texto branco no botão */
     font-size: 1.1em; /* Tamanho maior da fonte no botão */
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease; /* Transições para cor e efeito de clique */
@@ -815,7 +815,7 @@ header h1 {
     margin-top: 10px;
     padding: 8px 12px;
     background-color: #007bff;
-    color: #fff;
+    color: #000000;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -859,7 +859,7 @@ header h1 {
 .comentario-resposta {
     margin-top: 10px;
     padding: 10px;
-    background-color: #e9ecef;
+    background-color: #eb0707;
     border-left: 3px solid #007bff;
     border-radius: 4px;
     font-size: 15px;
