@@ -177,6 +177,28 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+document.addEventListener('DOMContentLoaded', function () {
+    // Seleciona o botão "Saiba Mais"
+    const learnMoreButton = document.getElementById('learn-more-button');
+    // Seleciona o conteúdo adicional que será exibido/ocultado
+    const moreInfo = document.getElementById('more-info');
+
+    // Adiciona um evento de clique ao botão "Saiba Mais"
+    learnMoreButton.addEventListener('click', function () {
+        // Verifica se o conteúdo adicional está visível ou oculto
+        if (moreInfo.style.display === 'none' || moreInfo.style.display === '') {
+            // Exibe o conteúdo adicional
+            moreInfo.style.display = 'block';
+            // Altera o texto do botão para "Mostrar Menos"
+            learnMoreButton.textContent = 'Mostrar Menos';
+        } else {
+            // Oculta o conteúdo adicional
+            moreInfo.style.display = 'none';
+            // Altera o texto do botão de volta para "Saiba Mais"
+            learnMoreButton.textContent = 'Saiba Mais';
+        }
+    });
+});
 
 
 

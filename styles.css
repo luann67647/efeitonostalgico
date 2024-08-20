@@ -865,3 +865,59 @@ header h1 {
     font-size: 15px;
     color: #333;
 }
+/* Estilização da seção de informações do site */
+#site-info {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Estilo do título da seção */
+#site-info h3 {
+    font-size: 24px;
+    color: #007bff;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Estilo do parágrafo */
+#site-info p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+/* Botão "Saiba Mais" */
+#learn-more-button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    font-size: 16px;
+}
+
+#learn-more-button:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+/* Estilo do conteúdo adicional (inicialmente escondido) */
+#more-info {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #555;
+    line-height: 1.8;
+    display: none;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+}
