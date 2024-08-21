@@ -1,3 +1,4 @@
+
 const movies  = [
     { title: 'O Poderoso Chefão 2', img: 'https://pbs.twimg.com/media/FxfaE4fXsAID4Fz.jpg:large', link: 'https://drive.google.com/file/d/1YtsfkCzXzjnnPASbKOIyRBFOcTcnaQRw/view', genre: 'Crime', duration: '175 min', year: '1974' },
     { title: 'Star Wars: Episódio IV', img: 'https://m.media-amazon.com/images/I/612h-jwI+EL._AC_UF1000,1000_QL80_.jpg', link: 'https://drive.google.com/file/d/1vZDRk35V-NbMKFXvH7ps5SsUKB3xJr48/view', genre: 'Sci-Fi', duration: '121 min', year: '1977' },
@@ -472,7 +473,22 @@ function createSearch(items, containerClass) {
             resultsContainer.innerHTML = '<p>Digite algo para pesquisar...</p>';
         }
     });
-}
+}// JavaScript para adicionar efeitos interativos à logo
+document.addEventListener('DOMContentLoaded', function() {
+    const logo = document.querySelector('.footer-logo img');
+
+    // Efeito de rotação ao passar o mouse
+    logo.addEventListener('mouseover', function() {
+        logo.style.transition = 'transform 0.5s ease';
+        logo.style.transform = 'rotate(15deg)';
+    });
+
+    logo.addEventListener('mouseout', function() {
+        logo.style.transform = 'rotate(0deg)';
+    });
+});
+
+
 
 // Inicializar seletores de temporadas e episódios
 createSeasonEpisodeSelectors(series);
