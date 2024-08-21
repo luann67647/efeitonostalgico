@@ -762,15 +762,15 @@ header h1 {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #f5f5f5;
+    background-color: #000000;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgb(255, 0, 0);
 }
 
 /* Título da seção */
 #comentarios-section h2 {
     font-size: 24px;
-    color: #333;
+    color: #ef0a0a;
     margin-bottom: 15px;
     text-align: center;
 }
@@ -913,4 +913,169 @@ header h1 {
     font-size: 14px;
     color: #555;
     display: none;
+}
+/* Footer Styles */
+footer {
+    background-color: #141414; /* Preto escuro como a Netflix */
+    color: #e5e5e5; /* Cinza claro para o texto */
+    padding: 60px 20px; /* Aumentar o espaçamento */
+    font-size: 0.9em; /* Tamanho da fonte */
+    border-top: 4px solid #e50914; /* Vermelho Netflix */
+    margin-top: 60px; /* Espaço acima do footer */
+    position: relative;
+    clear: both;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px; /* Largura máxima */
+    margin: 0 auto; /* Centralizar o conteúdo */
+}
+
+.footer-section {
+    flex: 1;
+    margin: 20px;
+    min-width: 250px;
+}
+
+.footer-section h3 {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-bottom: 2px solid #e50914; /* Vermelho Netflix */
+    padding-bottom: 10px;
+}
+
+.footer-section p,
+.footer-section ul {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin: 10px 0;
+}
+
+.footer-section ul li a {
+    color: #e5e5e5; /* Cinza claro */
+    text-decoration: none;
+    transition: color 0.3s ease, padding-left 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+    color: #e50914; /* Vermelho Netflix */
+    padding-left: 10px;
+}
+
+.footer-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-section form .input-group {
+    margin-bottom: 15px;
+}
+
+.footer-section form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #e5e5e5; /* Cinza claro */
+}
+
+.footer-section form input,
+.footer-section form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #333; /* Cinza escuro para contraste */
+    border-radius: 6px;
+    background-color: #333; /* Cinza escuro */
+    color: #e5e5e5; /* Cinza claro */
+    font-size: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve para destaque */
+}
+
+.footer-section form input:focus,
+.footer-section form textarea:focus {
+    border-color: #e50914; /* Vermelho Netflix quando em foco */
+    outline: none;
+    box-shadow: 0 0 5px rgba(229, 9, 20, 0.5); /* Efeito de foco */
+}
+
+.footer-section form button {
+    background-color: #e50914; /* Vermelho Netflix */
+    color: #ffffff;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.footer-section form button:hover {
+    background-color: #c8102e; /* Vermelho mais escuro */
+}
+
+.footer-section.social-media ul {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-section.social-media ul li {
+    margin: 0;
+}
+
+.footer-section.social-media ul li a {
+    display: inline-block;
+}
+
+.footer-section.social-media ul li img {
+    width: 24px; /* Tamanho padrão para ícones */
+    height: 24px;
+}
+
+.footer-logo {
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.footer-logo img {
+    max-width: 150px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.footer-logo img:hover {
+    transform: scale(1.1); /* Efeito de aumento ao passar o mouse */
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    border-top: 1px solid #333; /* Cinza escuro */
+    padding-top: 15px;
+}
+
+.footer-bottom p {
+    margin: 5px 0;
+    font-size: 0.9em;
+}
+
+.footer-bottom a {
+    color: #e50914; /* Vermelho Netflix */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
 }
