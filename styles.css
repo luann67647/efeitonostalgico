@@ -1097,20 +1097,27 @@ body {
   margin: 0 auto; /* Centraliza o container na página */
   padding: 20px;
 }
+/* Define um container geral para todos os itens */
+.container {
+  width: 80%; /* Ajuste a largura do container conforme necessário */
+  margin: 0 auto; /* Centraliza o container na página */
+  padding: 20px;
+}
 
 /* Estilo para cada item individual (filmes, séries, etc.) */
 .item {
   display: block; /* Faz cada item ocupar uma linha completa */
-  margin-bottom: 15px; /* Espaçamento entre os itens */
-  padding: 10px; /* Espaçamento interno dos itens */
+  margin-bottom: 20px; /* Espaçamento entre os itens */
+  padding: 15px; /* Espaçamento interno dos itens */
   border: 1px solid #ddd; /* Borda sutil ao redor de cada item */
   border-radius: 5px; /* Bordas arredondadas */
   background-color: #f9f9f9; /* Cor de fundo dos itens */
+  text-decoration: none; /* Remove o sublinhado dos links, se for o caso */
 }
 
 /* Estilo para o título dos itens (se houver) */
 .item-title {
-  font-size: 1.2em; /* Tamanho da fonte para o título */
+  font-size: 1.5em; /* Tamanho da fonte para o título */
   font-weight: bold; /* Título em negrito */
   color: #333; /* Cor do texto do título */
   margin-bottom: 10px; /* Espaçamento abaixo do título */
@@ -1121,3 +1128,11 @@ body {
   font-size: 1em; /* Tamanho da fonte para a descrição */
   color: #666; /* Cor do texto da descrição */
 }
+
+/* Se os itens forem links, adicione um estilo adicional */
+.item a {
+  color: inherit; /* Garante que o link herde a cor do item */
+  text-decoration: none; /* Remove o sublinhado do link */
+}
+
+
