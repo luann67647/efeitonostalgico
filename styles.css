@@ -104,6 +104,7 @@ main {
     max-width: 100%;
     overflow: hidden;
     padding: 0 20px;
+    display: flex;
 }
 
 .carousel {
@@ -452,6 +453,7 @@ main {
     max-width: 100%;
     overflow: hidden;
     padding: 0 20px;
+    display: flex;
 }
 
 .carousel {
@@ -1134,5 +1136,4 @@ body {
   color: inherit; /* Garante que o link herde a cor do item */
   text-decoration: none; /* Remove o sublinhado do link */
 }
-
 
