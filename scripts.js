@@ -1,16 +1,88 @@
 
-const movies  = [
-    { title: 'O Poderoso Chefão 2', img: 'https://pbs.twimg.com/media/FxfaE4fXsAID4Fz.jpg:large', link: 'https://drive.google.com/file/d/1YtsfkCzXzjnnPASbKOIyRBFOcTcnaQRw/view', genre: 'Crime', duration: '175 min', year: '1974' },
-    { title: 'Star Wars: Episódio IV', img: 'https://m.media-amazon.com/images/I/612h-jwI+EL._AC_UF1000,1000_QL80_.jpg', link: 'https://drive.google.com/file/d/1vZDRk35V-NbMKFXvH7ps5SsUKB3xJr48/view', genre: 'Sci-Fi', duration: '121 min', year: '1977' },
-    { title: 'Uma Linda Mulher', img: 'https://upload.wikimedia.org/wikipedia/pt/thumb/c/cc/Pretty_Woman_OST.jpg/220px-Pretty_Woman_OST.jpg', link: 'https://drive.google.com/file/d/1vjRMAXFuwLbvcjJ0YCPY2M3i7-2VtEqR/view', genre: 'Romance', duration: '119 min', year: '1990' },
-    { title: 'Descendentes 4: A Ascensão de Copas', img: 'https://upload.wikimedia.org/wikipedia/pt/b/bd/DescendantsRiseofRed.jpg', link: 'https://drive.google.com/file/d/1t4zw6cDKmMzzbWnOfKRpybTxFbfh2qaQ/view', genre: 'Fantasy', duration: ' 90  min', year: '2024' },
-    { title: 'Titanic', img: 'https://upload.wikimedia.org/wikipedia/pt/2/22/Titanic_poster.jpg', link: 'https://drive.google.com/file/d/13lvbXXYlVhArY8IiCaequP_ujT8bG8Lj/view', genre: 'Romance', duration: '180 min', year: '1997' },
-    { title: 'Divertida Mente 2', img: 'https://www.ucicinemas.com.br/Content/Upload/Filmes/Posters/11072/filme_11072.jpg', link: 'https://youcine.plus/movie/divertida-mente-2-2024', genre: 'Animation', duration: 'N/A', year: '2024' },  // Imaginary poster and link
-    { title: 'Rio', img: 'https://upload.wikimedia.org/wikipedia/pt/thumb/0/09/Rio_poster.jpg/235px-Rio_poster.jpg', link: 'https://drive.google.com/file/d/1_At6gXE826SnTSBmgGyQsxcbC6SlKewu/view', genre: 'Animation', duration: '96 min', year: '2011' },
-    { title: 'Meu Malvado Favorito 4', img: 'https://br.web.img3.acsta.net/img/6c/71/6c71afa89fd8ed8999b3e04d8d794a0e.jpg', link: 'https://youcine.plus/movie/meu-malvado-favorito-4-2024', genre: 'Animation', duration: 'N/A', year: '2024' }, // Imaginary link
-    { title: 'Deadpool e Wolverine', img: 'https://upload.wikimedia.org/wikipedia/pt/2/2a/Deadpool_%26_Wolverine_cartaz.jpg', link: 'https://youcine.plus/movie/deadpool-e-wolverine-2024', genre: 'Action', duration: '120 min', year: '2024' }, // Imaginary link and poster
-    { title: 'Farofeiros 2', img: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEih4oDgSkhVZwAGCuCtAP1YOxtxX0ZF2dWYRr97Ih4UiPWlyfpLvrVLIg0Yy5311sub7EfRhe_VoyKsFDQ75QTIo228Im99yQB29efCm4Mj3HrkZRqTlaPVFiHpxoF__Qd5L8rLtPVFfILQNn0zGdhwNCFVkXju45GmtDW2cvJ5295u3dg24gbGx_N4fwU/s800/capa%20os%20f2.jpg', link: 'https://drive.google.com/file/d/10IRhHPU8bEkfeS1HJxn_hfBz0vjfZiBC/view', genre: 'Comedy', duration: 'N/A', year: '2024' } // Imaginary poster and link
-];
+const movies  = 
+[
+    { 
+        "title": "Descendentes 4: A Ascensão de Copas", 
+        "img": "https://upload.wikimedia.org/wikipedia/pt/b/bd/DescendantsRiseofRed.jpg", 
+        "link": "https://drive.google.com/file/d/1t4zw6cDKmMzzbWnOfKRpybTxFbfh2qaQ/view", 
+        "genre": "Fantasy", 
+        "duration": "90 min", 
+        "year": "2024" 
+    },
+    { 
+        "title": "Titanic", 
+        "img": "https://upload.wikimedia.org/wikipedia/pt/2/22/Titanic_poster.jpg", 
+        "link": "https://drive.google.com/file/d/13lvbXXYlVhArY8IiCaequP_ujT8bG8Lj/view", 
+        "genre": "Romance", 
+        "duration": "180 min", 
+        "year": "1997" 
+    },
+    { 
+        "title": "Divertida Mente 2", 
+        "img": "https://www.ucicinemas.com.br/Content/Upload/Filmes/Posters/11072/filme_11072.jpg", 
+        "link": "https://youcine.plus/movie/divertida-mente-2-2024", 
+        "genre": "Animation", 
+        "duration": "N/A", 
+        "year": "2024" 
+    },
+    { 
+        "title": "Rio", 
+        "img": "https://upload.wikimedia.org/wikipedia/pt/thumb/0/09/Rio_poster.jpg/235px-Rio_poster.jpg", 
+        "link": "https://drive.google.com/file/d/1_At6gXE826SnTSBmgGyQsxcbC6SlKewu/view", 
+        "genre": "Animation", 
+        "duration": "96 min", 
+        "year": "2011" 
+    },
+    { 
+        "title": "Meu Malvado Favorito 4", 
+        "img": "https://br.web.img3.acsta.net/img/6c/71/6c71afa89fd8ed8999b3e04d8d794a0e.jpg", 
+        "link": "https://x.com/i/status/1823212673422491973", 
+        "genre": "Animation", 
+        "duration": "N/A", 
+        "year": "2024" 
+    },
+    { 
+        "title": "Deadpool e Wolverine", 
+        "img": "https://upload.wikimedia.org/wikipedia/pt/2/2a/Deadpool_%26_Wolverine_cartaz.jpg", 
+        "link": "https://youcine.plus/movie/deadpool-e-wolverine-2024", 
+        "genre": "Action", 
+        "duration": "120 min", 
+        "year": "2024" 
+    },
+    { 
+        "title": "Farofeiros 2", 
+        "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEih4oDgSkhVZwAGCuCtAP1YOxtxX0ZF2dWYRr97Ih4UiPWlyfpLvrVLIg0Yy5311sub7EfRhe_VoyKsFDQ75QTIo228Im99yQB29efCm4Mj3HrkZRqTlaPVFiHpxoF__Qd5L8rLtPVFfILQNn0zGdhwNCFVkXju45GmtDW2cvJ5295u3dg24gbGx_N4fwU/s800/capa%20os%20f2.jpg", 
+        "link": "https://drive.google.com/file/d/10IRhHPU8bEkfeS1HJxn_hfBz0vjfZiBC/view", 
+        "genre": "Comedy", 
+        "duration": "N/A", 
+        "year": "2024" 
+    },
+    { 
+        "title": "Fazendo Meu Filme", 
+        "img": "https://p2.trrsf.com/image/fget/cf/1200/1600/middle/images.terra.com/2024/01/31/1027132984-20240131153031.jpg", 
+        "link": "https://drive.google.com/file/d/1Xh3toSYHhlHqlyU51WY5qZ1vMYywQqWS/view", 
+        "genre": "Romance", 
+        "duration": "110 min", 
+        "year": "2024" 
+    },
+    { 
+        "title": "Reino Escondido", 
+        "img": "https://play-lh.googleusercontent.com/4KlpEKvzZc8ZxV--4DYZ24Lv2Wtq8kzzPpnRho2ntUV4YkZOiMvujHS_u-q5kNXR1_lc", 
+        "link": "https://drive.google.com/file/d/1GLgSC0VgLl3cgZU1YDqHNQULTr4-DE6P/view", 
+        "genre": "Adventure", 
+        "duration": "105 min", 
+        "year": "2024" 
+    },
+    { 
+        "title": "Invocação do Mal", 
+        "img": "https://m.media-amazon.com/images/I/91UQCBxB+cL._AC_UF894,1000_QL80_.jpg", 
+        "link": "https://drive.google.com/file/d/1_JApk09OnH5LFUVwh_YvLgK_8F0w8aN0/view", 
+        "genre": "Horror", 
+        "duration": "112 min", 
+        "year": "2013" 
+    }
+]
+   
 
 const series = [
     { title: 'O Castelo Rá-Tim-Bum', img: 'https://m.media-amazon.com/images/M/MV5BNTllYmZmNDAtZTU2ZC00MWVhLWIzYzUtMjQzYmEwYTgwNDNkXkEyXkFqcGdeQXVyMTY2MzYyNzA@._V1_FMjpg_UX1000_.jpg', link: 'https://libreflix.org/assistir/castelo-ratimbum', genre: 'Children', duration: '30 min/episódio', year: '1994', seasons: { 'Temporada 1': ['Episódio 1'] } },
@@ -503,3 +575,4 @@ document.querySelectorAll('.carousel-item').forEach(item => {
         
     });
 });
+
