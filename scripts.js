@@ -75,7 +75,7 @@ const movies  =
     },
     { 
         "title": "Invocação do Mal", 
-        "img": "https://m.media-amazon.com/images/I/91UQCBxB+cL._AC_UF894,1000_QL80_.jpg", 
+        "img": "https://upload.wikimedia.org/wikipedia/pt/a/ac/The_Conjuring.jpg", 
         "link": "https://drive.google.com/file/d/1_JApk09OnH5LFUVwh_YvLgK_8F0w8aN0/view", 
         "genre": "Horror", 
         "duration": "112 min", 
