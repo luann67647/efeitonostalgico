@@ -138,12 +138,12 @@ const movies = [
         "year": "2016" 
     },
     { 
-        "title": "Branca de Neve e os Sete Anões", 
-        "img": "https://br.web.img2.acsta.net/pictures/14/03/05/19/05/058446.jpg", 
-        "link": "https://drive.google.com/drive/folders/185ZjsY7afKNAhyzRKLo8zOdKEAlZZvHa?sort=13&direction=a", 
-        "genre": "Animation", 
-        "duration": "83 min", 
-        "year": "1937" 
+        "title": "Os Feiticeiros Retornam: Alex vs. Alex", 
+        "img": "https://pbs.twimg.com/media/EW0lHWRXgAAIVeJ.jpg", 
+        "link": "https://drive.google.com/file/d/12OSMtvm6_pKY6cTUlguqxEhX8i5Bst8G/view", 
+        "genre": "Comédia", 
+        "duration": "1 hora", 
+        "year": "2013" 
     },
     { 
         "title": "A Pequena Sereia", 
