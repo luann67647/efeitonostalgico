@@ -1,1139 +1,1133 @@
 /* Estilo geral do corpo */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #141414;
-    color: #fff;
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #141414;
+color: #fff;
 }
 
 /* Estilo do cabeçalho */
 header {
-    background-color: #000;
-    padding: 20px 0;
-    border-bottom: 2px solid #333;
-    text-align: center;
+background-color: #000;
+padding: 20px 0;
+border-bottom: 2px solid #333;
+text-align: center;
 }
 
 header .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
 }
 
 header .logo {
-    width: 200px;
-    height: auto;
-    margin-bottom: 20px;
+width: 200px;
+height: auto;
+margin-bottom: 20px;
 }
 
 header h1 {
-    font-size: 36px;
-    margin: 0;
-    color: #e50914;
+font-size: 36px;
+margin: 0;
+color: #e50914;
 }
 
 .search-container {
-    position: relative;
-    width: 100%;
-    max-width: 700px;
-    margin-top: 20px;
+position: relative;
+width: 100%;
+max-width: 700px;
+margin-top: 20px;
 }
 
 #search-form {
-    display: flex;
-    justify-content: center;
+display: flex;
+justify-content: center;
 }
 
 header input[type="text"] {
-    padding: 10px 50px 10px 15px;
-    font-size: 16px;
-    border: none;
-    border-radius: 4px;
-    width: 100%;
-    background-color: #333;
-    color: #fff;
-    box-sizing: border-box;
+padding: 10px 50px 10px 15px;
+font-size: 16px;
+border: none;
+border-radius: 4px;
+width: 100%;
+background-color: #333;
+color: #fff;
+box-sizing: border-box;
 }
 
 header input[type="text"]::placeholder {
-    color: #aaa;
+color: #aaa;
 }
 
 #search-button {
-    position: absolute;
-    right: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-    border: none;
-    background: none;
-    cursor: pointer;
-    padding: 0;
+position: absolute;
+right: 10px;
+top: 50%;
+transform: translateY(-50%);
+border: none;
+background: none;
+cursor: pointer;
+padding: 0;
 }
 
 #search-button i {
-    font-size: 20px;
-    color: #aaa;
+font-size: 20px;
+color: #aaa;
 }
 
 #search-button:hover i {
-    color: #e50914;
+color: #e50914;
 }
 
 /* Estilo principal */
 main {
-    padding: 20px;
+padding: 20px;
 }
 
 .content {
-    margin-bottom: 40px;
+margin-bottom: 40px;
 }
 
 .content h2 {
-    margin-bottom: 20px;
-    font-size: 28px;
-    color: #e50914;
+margin-bottom: 20px;
+font-size: 28px;
+color: #e50914;
 }
 
 /* Estilo do carrossel */
 .carousel-container {
-    position: relative;
-    max-width: 100%;
-    overflow: hidden;
-    padding: 0 20px;
-    display: flex;
+position: relative;
+max-width: 100%;
+overflow: hidden;
+padding: 0 20px;
+display:flex;
+flex-wrap:wrap;
+
 }
 
 .carousel {
-    display: flex;
-    gap: 20px;
-    transition: transform 0.5s ease;
-    will-change: transform;
+display: flex;
+gap: 20px;
+transition: transform 0.5s ease;
+will-change: transform;
+flex-wrap:wrap;
+justify-content:center;
+
+
 }
 
-.carousel-item {
-    width: 250px;
-    text-align: center;
-    position: relative;
-    background-color: #222;
-    border-radius: 8px;
-    overflow: hidden;
-    transition: transform 0.3s ease;
-}
+/* .carousel-item {
+width: 250px;
+text-align: center;
+position: relative;
+background-color: #222;
+border-radius: 8px;
+overflow: hidden;
+transition: transform 0.3s ease;
+} */
 
-.carousel-item img {
-    width: 100%;
-    height: 350px;
-    object-fit: cover;
-    border-bottom: 3px solid #e50914;
-}
+/* .carousel-item img {
+width: 100%;
+height: 350px;
+object-fit: cover;
+border-bottom: 3px solid #e50914;
+} */
 
 .carousel-item .item-logo {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    width: 50px;
-    height: 50px;
-    background: url('logo.png') no-repeat center center;
-    background-size: contain;
+position: absolute;
+top: 10px;
+left: 10px;
+width: 50px;
+height: 50px;
+background: url('logo.png') no-repeat center center;
+background-size: contain;
 }
 
 .carousel-item .info {
-    margin-top: 10px;
-    padding: 10px;
-    color: #aaa;
+margin-top: 10px;
+padding: 10px;
+color: #aaa;
 }
 
 .carousel-item .info p {
-    margin: 5px 0;
+margin: 5px 0;
 }
 
 .button {
-    display: block;
-    margin: 10px auto;
-    padding: 10px 20px;
-    background-color: #61181c;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 4px;
-    text-align: center;
-    font-size: 16px;
+display: block;
+margin: 10px auto;
+padding: 10px 20px;
+background-color: #61181c;
+color: #fff;
+text-decoration: none;
+border-radius: 4px;
+text-align: center;
+font-size: 16px;
 }
 
 .button:hover {
-    background-color: #b81d24;
+background-color: #b81d24;
 }
 
 /* Botões do carrossel */
 .carousel-button {
-    background-color: rgba(0, 0, 0, 0.5);
-    border: none;
-    color: #fff;
-    padding: 10px;
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 24px;
-    z-index: 10;
+background-color: rgba(0, 0, 0, 0.5);
+border: none;
+color: #fff;
+padding: 10px;
+cursor: pointer;
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+font-size: 24px;
+z-index: 10;
 }
 
 .carousel-button.prev {
-    left: 10px;
+left: 10px;
 }
 
 .carousel-button.next {
-    right: 10px;
+right: 10px;
 }
 
 /* Responsividade */
 @media (max-width: 768px) {
-    .carousel-item {
-        width: 150px;
-        height: 250px;
-    }
+.carousel-item {
+width: 450px;
+/* height: 250px; */
+}
 
-    .carousel-item img {
-        height: 180px;
-    }
+.carousel-item img {
+height: 180px;
+}
 
-    header h1 {
-        font-size: 28px;
-    }
+header h1 {
+font-size: 28px;
+}
 
-    header input[type="text"] {
-        max-width: 90%;
-    }
+header input[type="text"] {
+max-width: 90%;
+}
 }
 
 /* Estilos para o modal */
 .modal {
-    display: none; /* Inicialmente escondido */
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-    z-index: 1000;
-    overflow: auto;
+display: none; /* Inicialmente escondido */
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.8);
+z-index: 1000;
+overflow: auto;
 }
 
 .modal-content {
-    background-color: #222;
-    margin: 5% auto;
-    padding: 20px;
-    border-radius: 8px;
-    width: 80%;
-    max-width: 800px;
-    position: relative;
+background-color: #222;
+margin: 5% auto;
+padding: 20px;
+border-radius: 8px;
+width: 80%;
+max-width: 800px;
+position: relative;
 }
 
 .modal-title {
-    font-size: 24px;
-    margin-bottom: 10px;
-    color: #e50914a9;
+font-size: 24px;
+margin-bottom: 10px;
+color: #e50914a9;
 }
 
 .modal-img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 20px;
-    border-bottom: 3px solid #e50914;
+width: 100%;
+height: auto;
+margin-bottom: 20px;
+border-bottom: 3px solid #e50914;
 }
 
 .modal-info {
-    margin-bottom: 20px;
+margin-bottom: 20px;
 }
 
 .modal-link {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    background-color: #e50914;
-    color: #fff;
-    text-decoration: none;
-    text-align: center;
-    border-radius: 4px;
-    font-size: 16px;
+display: block;
+width: 100%;
+padding: 10px;
+background-color: #e50914;
+color: #fff;
+text-decoration: none;
+text-align: center;
+border-radius: 4px;
+font-size: 16px;
 }
 
 .modal-link:hover {
-    background-color: #36ef9994;
+background-color: #36ef9994;
 }
 
 .close {
-    position: absolute;
-    top: 10px;
-    right: 20px;
-    font-size: 24px;
-    color: #fff;
-    cursor: pointer;
+position: absolute;
+top: 10px;
+right: 20px;
+font-size: 24px;
+color: #fff;
+cursor: pointer;
 }
 
 /* Estilos para opções de temporadas e episódios */
 .selector-container {
-    margin-top: 20px;
+margin-top: 20px;
 }
 
 .selector-container h3 {
-    font-size: 20px;
-    color: #e50914;
-    margin-bottom: 10px;
+font-size: 20px;
+color: #e50914;
+margin-bottom: 10px;
 }
 
 .selector-container select, .selector-container button {
-    padding: 10px;
-    font-size: 16px;
-    border-radius: 4px;
-    border: 1px solid #333;
-    background-color: #222;
-    color: #ffffff;
-    margin-bottom: 10px;
-    display: block;
-    width: 100%;
+padding: 10px;
+font-size: 16px;
+border-radius: 4px;
+border: 1px solid #333;
+background-color: #222;
+color: #ffffff;
+margin-bottom: 10px;
+display: block;
+width: 100%;
 }
 
 .selector-container select {
-    appearance: none;
-    background: #ff0000 url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj4KPHBhdGggZD0iTTUuNTcgNnYyLjExbDUuNTQgNS41NCAuNTggMi41NCAuNTggMCAyLjc3bDcuNzkgNy43OWw2LjI1LTYuMjUtLjU4LjM0bDguNzkgOC43OWw2Ljc3IDYuMjQ2Ii8+Cjwvc3ZnPg==') no-repeat right 10px center;
-    background-size: 20px;
+appearance: none;
+background: #ff0000 url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj4KPHBhdGggZD0iTTUuNTcgNnYyLjExbDUuNTQgNS41NCAuNTggMi41NCAuNTggMCAyLjc3bDcuNzkgNy43OWw2LjI1LTYuMjUtLjU4LjM0bDguNzkgOC43OWw2Ljc3IDYuMjQ2Ii8+Cjwvc3ZnPg==') no-repeat right 10px center;
+background-size: 20px;
 }
 
 .selector-container select:focus {
-    border-color: #df000b;
-    outline: none;
+border-color: #df000b;
+outline: none;
 }
 
 
 .dubbing-subtitles-container label {
-    font-size: 18px;
-    color: #e50914;
-    margin-right: 15px;
+font-size: 18px;
+color: #e50914;
+margin-right: 15px;
 }
 
 .dubbing-subtitles-container input[type="radio"] {
-    margin-right: 5px;
+margin-right: 5px;
 }
 
 .dubbing-subtitles-container input[type="radio"]:checked + span {
-    color: #e50914;
+color: #e50914;
 }
 
 /* Estilos específicos para novelas */
 .carousel-item.novela {
-    background-color: #222; /* Fundo escuro para contraste */
-    border-radius: 8px;
-    overflow: hidden;
-    position: relative;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+background-color: #222; /* Fundo escuro para contraste */
+border-radius: 8px;
+overflow: hidden;
+position: relative;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .carousel-item.novela:hover {
-    transform: scale(1.05); /* Amplia o item ao passar o mouse */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Adiciona uma sombra ao item */
+transform: scale(1.05); /* Amplia o item ao passar o mouse */
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Adiciona uma sombra ao item */
 }
 
 .carousel-item.novela img {
-    width: 100%;
-    height: 200px; /* Ajusta a altura da imagem para novelas */
-    object-fit: cover;
+width: 100%;
+height: 200px; /* Ajusta a altura da imagem para novelas */
+object-fit: cover;
 }
 
 .carousel-item.novela .info {
-    padding: 10px;
-    color: #ccc; /* Texto claro sobre fundo escuro */
-    background-color: rgba(0, 0, 0, 0.5); /* Fundo translúcido para o texto */
+padding: 10px;
+color: #ccc; /* Texto claro sobre fundo escuro */
+background-color: rgba(0, 0, 0, 0.5); /* Fundo translúcido para o texto */
 }
 
 .carousel-item.novela .info p {
-    margin: 5px 0;
-    font-size: 14px; /* Ajusta o tamanho da fonte para melhor leitura */
+margin: 5px 0;
+font-size: 14px; /* Ajusta o tamanho da fonte para melhor leitura */
 }
 
 .carousel-item.novela .episode-selector {
-    margin-top: 10px;
+margin-top: 10px;
 }
 
 .carousel-item.novela .episode-selector select {
-    padding: 5px;
-    font-size: 14px;
-    border-radius: 4px;
-    border: 1px solid #333;
-    background-color: #222;
-    color: #fff;
-    width: 100%;
+padding: 5px;
+font-size: 14px;
+border-radius: 4px;
+border: 1px solid #333;
+background-color: #222;
+color: #fff;
+width: 100%;
 }
 
 .carousel-item.novela .episode-selector label {
-    font-size: 16px;
-    color: #e50914;
-    margin-right: 10px;
+font-size: 16px;
+color: #e50914;
+margin-right: 10px;
 }
 
 /* Adiciona estilos aos botões de ação para novelas */
 .carousel-item.novela .action-buttons {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-top: 10px;
+display: flex;
+justify-content: center;
+gap: 10px;
+margin-top: 10px;
 }
 
 .carousel-item.novela .action-buttons button {
-    padding: 10px;
-    font-size: 14px;
-    border-radius: 4px;
-    border: none;
-    background-color: #e50914;
-    color: #fff;
-    cursor: pointer;
+padding: 10px;
+font-size: 14px;
+border-radius: 4px;
+border: none;
+background-color: #e50914;
+color: #fff;
+cursor: pointer;
 }
 
 .carousel-item.novela .action-buttons button:hover {
-    background-color: #b81d24;
+background-color: #b81d24;
 }
 
 /* Ajustes para o seletor de temporada e episódio */
 #season-selector, #episode-selector {
-    margin-top: 10px;
+margin-top: 10px;
 }
 
 #season-select, #episode-select {
-    width: 100%;
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    background-color: #222;
-    color: #fff;
+width: 100%;
+padding: 5px;
+border: 1px solid #ccc;
+border-radius: 4px;
+background-color: #222;
+color: #fff;
 }
 
 /* Estilo do sistema de avaliação */
 .rating {
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
+margin-top: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 5px;
 }
 
 .rating input[type="radio"] {
-    display: none; /* Esconde os inputs de rádio */
+display: none; /* Esconde os inputs de rádio */
 }
 
 .rating label {
-    font-size: 24px; /* Tamanho maior para as estrelas */
-    cursor: pointer; /* Cursor de ponteiro para interatividade */
-    color: #f5c518; /* Cor padrão das estrelas preenchidas */
+font-size: 24px; /* Tamanho maior para as estrelas */
+cursor: pointer; /* Cursor de ponteiro para interatividade */
+color: #f5c518; /* Cor padrão das estrelas preenchidas */
 }
 
 .rating label span {
-    display: inline-block;
-    font-family: 'Font Awesome 5 Free'; /* Usa Font Awesome para estrelas */
-    font-weight: 900; /* Torna as estrelas mais espessas */
-    content: "\f005"; /* Código Unicode para estrela cheia */
-    font-size: 24px; /* Tamanho das estrelas */
-    color: #ccc; /* Cor padrão das estrelas não selecionadas */
-    transition: color 0.3s ease; /* Transição suave de cor */
+display: inline-block;
+font-family: 'Font Awesome 5 Free'; /* Usa Font Awesome para estrelas */
+font-weight: 900; /* Torna as estrelas mais espessas */
+content: "\f005"; /* Código Unicode para estrela cheia */
+font-size: 24px; /* Tamanho das estrelas */
+color: #ccc; /* Cor padrão das estrelas não selecionadas */
+transition: color 0.3s ease; /* Transição suave de cor */
 }
 
 .rating input[type="radio"]:checked ~ label span {
-    color: #ffc800; /* Cor dourada quando selecionado */
+color: #ffc800; /* Cor dourada quando selecionado */
 }
 
 .rating label:hover span,
 .rating label:hover ~ label span {
-    color: #f5c518; /* Cor dourada ao passar o mouse */
+color: #f5c518; /* Cor dourada ao passar o mouse */
 }
 /* Estilo do carrossel */
 .carousel-container {
-    position: relative;
-    max-width: 100%;
-    overflow: hidden;
-    padding: 0 20px;
-    display: flex;
+position: relative;
+max-width: 100%;
+overflow: hidden;
+padding: 0 20px;
 }
 
 .carousel {
-    display: flex;
-    gap: 20px;
-    transition: transform 0.5s ease;
-    will-change: transform;
+display: flex;
+gap: 20px;
+transition: transform 0.5s ease;
+will-change: transform;
 }
 
 .carousel-item {
-    width: 250px;
-    text-align: center;
-    position: relative;
-    background-color: #222;
-    border-radius: 8px;
-    overflow: hidden;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+width: 250px;
+text-align: center;
+position: relative;
+background-color: #222;
+border-radius: 8px;
+overflow: hidden;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .carousel-item img {
-    width: 100%;
-    height: 200px; /* Ajusta a altura da imagem para novelas */
-    object-fit: cover;
-    border-bottom: 3px solid #e50914;
+width: 100%;
+height: 200px; /* Ajusta a altura da imagem para novelas */
+object-fit: cover;
+border-bottom: 3px solid #e50914;
 }
 
 .carousel-item:hover {
-    transform: scale(1.05); /* Amplia o item ao passar o mouse */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Adiciona uma sombra ao item */
+transform: scale(1.05); /* Amplia o item ao passar o mouse */
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Adiciona uma sombra ao item */
 }
 
 
 
 .carousel-item:hover .item-logo {
-    transform: scale(1.1); /* Amplia a logo ao passar o mouse */
+transform: scale(1.1); /* Amplia a logo ao passar o mouse */
 }
 /* Estilo do modal */
 .modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgba(0,0,0,0.5);
+display: none;
+position: fixed;
+z-index: 1;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+overflow: auto;
+background-color: rgba(0,0,0,0.5);
 }
 
 .modal-content {
-    background-color: #000000;
-    margin: 15% auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
-    max-width: 600px;
-    position: relative;
+background-color: #000000;
+margin: 15% auto;
+padding: 20px;
+border: 1px solid #888;
+width: 80%;
+max-width: 600px;
+position: relative;
 }
 
 .close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
+color: #aaa;
+float: right;
+font-size: 28px;
+font-weight: bold;
 }
 
 .close:hover,
 .close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
+color: black;
+text-decoration: none;
+cursor: pointer;
 }
 
 /* Estilo das estrelas de avaliação */
 .rating {
-    margin-top: 20px;
+margin-top: 20px;
 }
 
 .rating-stars {
-    display: flex;
-    direction: row;
+display: flex;
+direction: row;
 }
 
 .rating-stars input {
-    display: none;
+display: none;
 }
 
 .rating-stars label {
-    color: #000000;
-    font-size: 2em;
-    cursor: pointer;
-    transition: color 0.3s;
+color: #000000;
+font-size: 2em;
+cursor: pointer;
+transition: color 0.3s;
 }
 
 .rating-stars input:checked ~ label {
-    color: gold;
+color: gold;
 }
 
 .rating-stars label:hover,
 .rating-stars label:hover ~ label {
-    color: gold;
+color: gold;
 }
 /* Estilo para o contêiner de seleção de temporada e episódio */
 .selector-container {
-    margin-top: 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+margin-top: 40px;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
 /* Título da seção de seleção */
 .selector-container h3 {
-    font-size: 24px;
-    color: #e50914;
-    margin-bottom: 20px;
-    text-align: center;
+font-size: 24px;
+color: #e50914;
+margin-bottom: 20px;
+text-align: center;
 }
 
 /* Contêiner para os botões de temporada */
 .season-buttons {
-    display: flex;
-    gap: 15px;
-    flex-wrap: wrap;
-    justify-content: center;
+display: flex;
+gap: 15px;
+flex-wrap: wrap;
+justify-content: center;
 }
 
 /* Botões de temporada */
 .season-button {
-    padding: 12px 24px;
-    font-size: 16px;
-    border-radius: 8px;
-    border: 2px solid #333;
-    background-color: #333;
-    color: #fff;
-    cursor: pointer;
-    transition: background-color 0.3s, border-color 0.3s, transform 0.2s;
-    text-align: center;
-    font-weight: bold;
-    outline: none;
+padding: 12px 24px;
+font-size: 16px;
+border-radius: 8px;
+border: 2px solid #333;
+background-color: #333;
+color: #fff;
+cursor: pointer;
+transition: background-color 0.3s, border-color 0.3s, transform 0.2s;
+text-align: center;
+font-weight: bold;
+outline: none;
 }
 
 .season-button:hover,
 .season-button.selected {
-    background-color: #e50914;
-    border-color: #e50914;
-    transform: scale(1.05);
+background-color: #e50914;
+border-color: #e50914;
+transform: scale(1.05);
 }
 
 /* Estilo do menu suspenso dos episódios */
 #episode-select {
-    width: 100%;
-    max-width: 400px;
-    padding: 12px;
-    border: 2px solid #333;
-    border-radius: 8px;
-    background-color: #222;
-    color: #fff;
-    font-size: 16px;
-    cursor: pointer;
-    transition: border-color 0.3s, background-color 0.3s;
-    outline: none;
+width: 100%;
+max-width: 400px;
+padding: 12px;
+border: 2px solid #333;
+border-radius: 8px;
+background-color: #222;
+color: #fff;
+font-size: 16px;
+cursor: pointer;
+transition: border-color 0.3s, background-color 0.3s;
+outline: none;
 }
 
 /* Opções do menu suspenso */
 #episode-select option {
-    background-color: #333;
-    color: #fff;
+background-color: #333;
+color: #fff;
 }
 
 /* Estado de foco do menu suspenso */
 #episode-select:focus {
-    border-color: #e50914;
-    background-color: #333;
+border-color: #e50914;
+background-color: #333;
 }
 
 /* Estilo para a visualização do botão de episódio selecionado */
 #episode-select::-ms-value {
-    color: #fff;
-    background-color: #222;
+color: #fff;
+background-color: #222;
 }
 
 /* Estilo do contêiner de seletores de episódio */
 .episode-selector-container {
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+margin-top: 30px;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
 /* Título do seletor de episódios */
 .episode-selector-container h4 {
-    font-size: 20px;
-    color: #e50914;
-    margin-bottom: 10px;
-    text-align: center;
+font-size: 20px;
+color: #e50914;
+margin-bottom: 10px;
+text-align: center;
 }
 header {
-    background: linear-gradient(45deg, #000, #333);
-    padding: 20px 0;
-    border-bottom: 2px solid #333;
-    text-align: center;
+background: linear-gradient(45deg, #000, #333);
+padding: 20px 0;
+border-bottom: 2px solid #333;
+text-align: center;
 }
 body {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
+font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
 header h1 {
-    font-size: 40px; /* Aumenta o tamanho do título */
+font-size: 40px; /* Aumenta o tamanho do título */
 }
 
 .carousel-item .info p {
-    font-size: 16px; /* Ajusta o tamanho da fonte no carrossel */
+font-size: 16px; /* Ajusta o tamanho da fonte no carrossel */
 }
 .button {
-    background-color: #d32f2f; /* Muda a cor de fundo do botão */
+background-color: #d32f2f; /* Muda a cor de fundo do botão */
 }
 
 .button:hover {
-    background-color: #c62828; /* Cor de fundo ao passar o mouse */
+background-color: #c62828; /* Cor de fundo ao passar o mouse */
 }
 
 .rating-stars label {
-    color: #ffeb3b; /* Cor das estrelas de avaliação */
+color: #ffeb3b; /* Cor das estrelas de avaliação */
 }
 @media (max-width: 480px) {
-    .carousel-item {
-        width: 120px;
-        height: 200px;
-    }
+.carousel-item {
+width: 120px;
+height: 200px;
+}
 
-    .carousel-item img {
-        height: 160px;
-    }
+.carousel-item img {
+height: 160px;
+}
 
-    header h1 {
-        font-size: 24px;
-    }
+header h1 {
+font-size: 24px;
+}
 }
 /* Estiliza o contêiner de contato */
 .contact-container {
-    max-width: 600px; /* Define a largura máxima do formulário */
-    margin: 40px auto; /* Centraliza o contêiner com uma margem superior */
-    padding: 30px; /* Adiciona mais espaço interno */
-    background-color: #1c1c1c; /* Fundo escuro para o contêiner */
-    border-radius: 12px; /* Borda arredondada mais pronunciada */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5); /* Sombra mais forte */
+max-width: 600px; /* Define a largura máxima do formulário */
+margin: 40px auto; /* Centraliza o contêiner com uma margem superior */
+padding: 30px; /* Adiciona mais espaço interno */
+background-color: #1c1c1c; /* Fundo escuro para o contêiner */
+border-radius: 12px; /* Borda arredondada mais pronunciada */
+box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5); /* Sombra mais forte */
 }
 
 /* Estiliza o título do formulário */
 .contact-container h1 {
-    font-size: 2.5em; /* Tamanho maior do título */
-    margin-bottom: 20px; /* Espaçamento abaixo do título */
-    color: #e50914; /* Cor vermelha da Netflix */
-    text-align: center;
-    font-weight: 700; /* Negrito para destacar o título */
+font-size: 2.5em; /* Tamanho maior do título */
+margin-bottom: 20px; /* Espaçamento abaixo do título */
+color: #e50914; /* Cor vermelha da Netflix */
+text-align: center;
+font-weight: 700; /* Negrito para destacar o título */
 }
 
 /* Estiliza o formulário */
 #contact-form {
-    display: flex;
-    flex-direction: column;
+display: flex;
+flex-direction: column;
 }
 
 #contact-form label {
-    margin-bottom: 8px; /* Espaçamento abaixo dos rótulos */
-    font-weight: bold;
-    color: #e50914; /* Cor vermelha da Netflix para os rótulos */
-    font-size: 1.1em; /* Tamanho maior dos rótulos */
+margin-bottom: 8px; /* Espaçamento abaixo dos rótulos */
+font-weight: bold;
+color: #e50914; /* Cor vermelha da Netflix para os rótulos */
+font-size: 1.1em; /* Tamanho maior dos rótulos */
 }
 
 #contact-form input,
 #contact-form textarea {
-    padding: 12px; /* Mais espaço interno */
-    border: 1px solid #444; /* Borda escura para os campos */
-    border-radius: 8px; /* Bordas mais arredondadas */
-    margin-bottom: 20px; /* Espaçamento maior entre os campos */
-    background-color: #333; /* Fundo escuro para os campos */
-    color: #a80505; /* Texto branco para os campos */
-    font-size: 1em; /* Tamanho da fonte para melhor legibilidade */
+padding: 12px; /* Mais espaço interno */
+border: 1px solid #444; /* Borda escura para os campos */
+border-radius: 8px; /* Bordas mais arredondadas */
+margin-bottom: 20px; /* Espaçamento maior entre os campos */
+background-color: #333; /* Fundo escuro para os campos */
+color: #a80505; /* Texto branco para os campos */
+font-size: 1em; /* Tamanho da fonte para melhor legibilidade */
 }
 
 #contact-form textarea {
-    resize: vertical; /* Permite redimensionar a área de texto verticalmente */
+resize: vertical; /* Permite redimensionar a área de texto verticalmente */
 }
 
 #contact-form button {
-    padding: 12px 25px; /* Mais espaço interno */
-    background-color: #e50914; /* Cor vermelha da Netflix para o botão */
-    border: none;
-    border-radius: 8px; /* Bordas arredondadas */
-    color: #1b1717; /* Texto branco no botão */
-    font-size: 1.1em; /* Tamanho maior da fonte no botão */
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease; /* Transições para cor e efeito de clique */
+padding: 12px 25px; /* Mais espaço interno */
+background-color: #e50914; /* Cor vermelha da Netflix para o botão */
+border: none;
+border-radius: 8px; /* Bordas arredondadas */
+color: #1b1717; /* Texto branco no botão */
+font-size: 1.1em; /* Tamanho maior da fonte no botão */
+cursor: pointer;
+transition: background-color 0.3s ease, transform 0.2s ease; /* Transições para cor e efeito de clique */
 }
 
 #contact-form button:hover {
-    background-color: #b81d24; /* Cor vermelha mais escura para o efeito hover */
-    transform: scale(1.05); /* Leve aumento do botão ao passar o mouse */
+background-color: #b81d24; /* Cor vermelha mais escura para o efeito hover */
+transform: scale(1.05); /* Leve aumento do botão ao passar o mouse */
 }
 
 #contact-form button:active {
-    transform: scale(0.98); /* Leve redução do botão ao clicar */
+transform: scale(0.98); /* Leve redução do botão ao clicar */
 }
 /* Estrutura geral da seção de comentários */
 #comentarios-section {
-    width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #000000;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgb(255, 0, 0);
+width: 100%;
+max-width: 800px;
+margin: 0 auto;
+padding: 20px;
+background-color: #000000;
+border-radius: 8px;
+box-shadow: 0 0 10px rgb(255, 0, 0);
 }
 
 /* Título da seção */
 #comentarios-section h2 {
-    font-size: 24px;
-    color: #ef0a0a;
-    margin-bottom: 15px;
-    text-align: center;
+font-size: 24px;
+color: #ef0a0a;
+margin-bottom: 15px;
+text-align: center;
 }
 
 /* Cada comentário individual */
 .comentario {
-    padding: 15px;
-    margin-bottom: 20px;
-    background-color: #fff;
-    border-radius: 6px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    position: relative;
+padding: 15px;
+margin-bottom: 20px;
+background-color: #fff;
+border-radius: 6px;
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+position: relative;
 }
 
 /* Nome do usuário */
 .comentario .user-name {
-    font-weight: bold;
-    font-size: 18px;
-    color: #007bff;
+font-weight: bold;
+font-size: 18px;
+color: #007bff;
 }
 
 /* Texto do comentário */
 .comentario .comment-text {
-    font-size: 16px;
-    color: #555;
-    margin-top: 5px;
-    line-height: 1.5;
+font-size: 16px;
+color: #555;
+margin-top: 5px;
+line-height: 1.5;
 }
 
 /* Data e hora do comentário */
 .comentario .comment-date {
-    font-size: 14px;
-    color: #888;
-    position: absolute;
-    top: 10px;
-    right: 15px;
+font-size: 14px;
+color: #888;
+position: absolute;
+top: 10px;
+right: 15px;
 }
 
 /* Botão de resposta */
 .comentario .reply-button {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 8px 12px;
-    background-color: #007bff;
-    color: #000000;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+display: inline-block;
+margin-top: 10px;
+padding: 8px 12px;
+background-color: #007bff;
+color: #000000;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+transition: background-color 0.3s;
 }
 
 .comentario .reply-button:hover {
-    background-color: #0056b3;
+background-color: #0056b3;
 }
 
 /* Área de resposta */
 .reply-area {
-    margin-top: 20px;
-    display: none;
+margin-top: 20px;
+display: none;
 }
 
 .reply-area textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-    resize: vertical;
+width: 100%;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 4px;
+font-size: 16px;
+resize: vertical;
 }
 
 .reply-area .submit-reply {
-    margin-top: 10px;
-    padding: 10px 15px;
-    background-color: #28a745;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+margin-top: 10px;
+padding: 10px 15px;
+background-color: #28a745;
+color: #fff;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+transition: background-color 0.3s;
 }
 
 .reply-area .submit-reply:hover {
-    background-color: #218838;
+background-color: #218838;
 }
 /* Estilo para respostas adicionadas */
 .comentario-resposta {
-    margin-top: 10px;
-    padding: 10px;
-    background-color: #eb0707;
-    border-left: 3px solid #007bff;
-    border-radius: 4px;
-    font-size: 15px;
-    color: #333;
+margin-top: 10px;
+padding: 10px;
+background-color: #eb0707;
+border-left: 3px solid #007bff;
+border-radius: 4px;
+font-size: 15px;
+color: #333;
 }
 /* Estilização compacta da seção de informações do site */
 #site-info {
-    width: 100%;
-    max-width: 600px;
-    margin: 10px auto;
-    padding: 15px;
-    background-color: #000000;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    text-align: left;
-    font-size: 14px;
+width: 100%;
+max-width: 600px;
+margin: 10px auto;
+padding: 15px;
+background-color: #000000;
+border-radius: 8px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+text-align: left;
+font-size: 14px;
 }
 
 /* Título da seção */
 #site-info h3 {
-    font-size: 18px;
-    color: #f40505;
-    margin-bottom: 10px;
+font-size: 18px;
+color: #f40505;
+margin-bottom: 10px;
 }
 
 /* Parágrafo da descrição */
 #site-info p {
-    font-size: 14px;
-    color: #fffdfd;
-    margin-bottom: 10px;
+font-size: 14px;
+color: #fffdfd;
+margin-bottom: 10px;
 }
 
 /* Botão "Saiba Mais" */
 #learn-more-button {
-    padding: 8px 16px;
-    background-color: #23b545;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 14px;
+padding: 8px 16px;
+background-color: #23b545;
+color: #fff;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+font-size: 14px;
 }
 
 #learn-more-button:hover {
-    background-color: #218838;
+background-color: #218838;
 }
 
 /* Estilo do conteúdo adicional */
 #more-info {
-    margin-top: 10px;
-    font-size: 14px;
-    color: #555;
-    display: none;
+margin-top: 10px;
+font-size: 14px;
+color: #555;
+display: none;
 }
 /* Footer Styles */
 footer {
-    background-color: #141414; /* Preto escuro como a Netflix */
-    color: #e5e5e5; /* Cinza claro para o texto */
-    padding: 60px 20px; /* Aumentar o espaçamento */
-    font-size: 0.9em; /* Tamanho da fonte */
-    border-top: 4px solid #e50914; /* Vermelho Netflix */
-    margin-top: 60px; /* Espaço acima do footer */
-    position: relative;
-    clear: both;
+background-color: #141414; /* Preto escuro como a Netflix */
+color: #e5e5e5; /* Cinza claro para o texto */
+padding: 60px 20px; /* Aumentar o espaçamento */
+font-size: 0.9em; /* Tamanho da fonte */
+border-top: 4px solid #e50914; /* Vermelho Netflix */
+margin-top: 60px; /* Espaço acima do footer */
+position: relative;
+clear: both;
 }
 
 .footer-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 1200px; /* Largura máxima */
-    margin: 0 auto; /* Centralizar o conteúdo */
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+max-width: 1200px; /* Largura máxima */
+margin: 0 auto; /* Centralizar o conteúdo */
 }
 
 .footer-section {
-    flex: 1;
-    margin: 20px;
-    min-width: 250px;
+flex: 1;
+margin: 20px;
+min-width: 250px;
 }
 
 .footer-section h3 {
-    margin-bottom: 15px;
-    font-size: 1.2em;
-    font-weight: bold;
-    border-bottom: 2px solid #e50914; /* Vermelho Netflix */
-    padding-bottom: 10px;
+margin-bottom: 15px;
+font-size: 1.2em;
+font-weight: bold;
+border-bottom: 2px solid #e50914; /* Vermelho Netflix */
+padding-bottom: 10px;
 }
 
 .footer-section p,
 .footer-section ul {
-    margin: 0;
-    padding: 0;
+margin: 0;
+padding: 0;
 }
 
 .footer-section ul {
-    list-style: none;
+list-style: none;
 }
 
 .footer-section ul li {
-    margin: 10px 0;
+margin: 10px 0;
 }
 
 .footer-section ul li a {
-    color: #e5e5e5; /* Cinza claro */
-    text-decoration: none;
-    transition: color 0.3s ease, padding-left 0.3s ease;
+color: #e5e5e5; /* Cinza claro */
+text-decoration: none;
+transition: color 0.3s ease, padding-left 0.3s ease;
 }
 
 .footer-section ul li a:hover {
-    color: #e50914; /* Vermelho Netflix */
-    padding-left: 10px;
+color: #e50914; /* Vermelho Netflix */
+padding-left: 10px;
 }
 
 .footer-section form {
-    display: flex;
-    flex-direction: column;
+display: flex;
+flex-direction: column;
 }
 
 .footer-section form .input-group {
-    margin-bottom: 15px;
+margin-bottom: 15px;
 }
 
 .footer-section form label {
-    display: block;
-    margin-bottom: 8px;
-    font-weight: bold;
-    color: #e5e5e5; /* Cinza claro */
+display: block;
+margin-bottom: 8px;
+font-weight: bold;
+color: #e5e5e5; /* Cinza claro */
 }
 
 .footer-section form input,
 .footer-section form textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #333; /* Cinza escuro para contraste */
-    border-radius: 6px;
-    background-color: #333; /* Cinza escuro */
-    color: #e5e5e5; /* Cinza claro */
-    font-size: 1em;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve para destaque */
+width: 100%;
+padding: 12px;
+border: 1px solid #333; /* Cinza escuro para contraste */
+border-radius: 6px;
+background-color: #333; /* Cinza escuro */
+color: #e5e5e5; /* Cinza claro */
+font-size: 1em;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve para destaque */
 }
 
 .footer-section form input:focus,
 .footer-section form textarea:focus {
-    border-color: #e50914; /* Vermelho Netflix quando em foco */
-    outline: none;
-    box-shadow: 0 0 5px rgba(229, 9, 20, 0.5); /* Efeito de foco */
+border-color: #e50914; /* Vermelho Netflix quando em foco */
+outline: none;
+box-shadow: 0 0 5px rgba(229, 9, 20, 0.5); /* Efeito de foco */
 }
 
 .footer-section form button {
-    background-color: #e50914; /* Vermelho Netflix */
-    color: #ffffff;
-    border: none;
-    padding: 12px;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 1em;
-    margin-top: 10px;
-    transition: background-color 0.3s ease;
+background-color: #e50914; /* Vermelho Netflix */
+color: #ffffff;
+border: none;
+padding: 12px;
+border-radius: 6px;
+cursor: pointer;
+font-size: 1em;
+margin-top: 10px;
+transition: background-color 0.3s ease;
 }
 
 .footer-section form button:hover {
-    background-color: #c8102e; /* Vermelho mais escuro */
+background-color: #c8102e; /* Vermelho mais escuro */
 }
 
 .footer-section.social-media ul {
-    display: flex;
-    gap: 15px;
+display: flex;
+gap: 15px;
 }
 
 .footer-section.social-media ul li {
-    margin: 0;
+margin: 0;
 }
 
 .footer-section.social-media ul li a {
-    display: inline-block;
+display: inline-block;
 }
 
 .footer-section.social-media ul li img {
-    width: 24px; /* Tamanho padrão para ícones */
-    height: 24px;
+width: 24px; /* Tamanho padrão para ícones */
+height: 24px;
 }
 
 .footer-logo {
-    display: block;
-    margin-bottom: 20px;
-    text-align: center;
+display: block;
+margin-bottom: 20px;
+text-align: center;
 }
 
 .footer-logo img {
-    max-width: 150px; /* Ajuste o tamanho conforme necessário */
-    height: auto;
-    transition: transform 0.3s ease;
+max-width: 150px; /* Ajuste o tamanho conforme necessário */
+height: auto;
+transition: transform 0.3s ease;
 }
 
 .footer-logo img:hover {
-    transform: scale(1.1); /* Efeito de aumento ao passar o mouse */
+transform: scale(1.1); /* Efeito de aumento ao passar o mouse */
 }
 
 .footer-bottom {
-    text-align: center;
-    margin-top: 30px;
-    border-top: 1px solid #333; /* Cinza escuro */
-    padding-top: 15px;
+text-align: center;
+margin-top: 30px;
+border-top: 1px solid #333; /* Cinza escuro */
+padding-top: 15px;
 }
 
 .footer-bottom p {
-    margin: 5px 0;
-    font-size: 0.9em;
+margin: 5px 0;
+font-size: 0.9em;
 }
 
 .footer-bottom a {
-    color: #e50914; /* Vermelho Netflix */
-    text-decoration: none;
-    font-weight: bold;
+color: #e50914; /* Vermelho Netflix */
+text-decoration: none;
+font-weight: bold;
 }
 
 .footer-bottom a:hover {
-    text-decoration: underline;
+text-decoration: underline;
 }
 /* Regras gerais de estilo */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
-}
 /* Define um container geral para todos os itens */
 .container {
-  width: 80%; /* Ajuste a largura do container conforme necessário */
-  margin: 0 auto; /* Centraliza o container na página */
-  padding: 20px;
+width: 80%; /* Ajuste a largura do container conforme necessário */
+margin: 0 auto; /* Centraliza o container na página */
+padding: 20px;
 }
 /* Define um container geral para todos os itens */
-.container {
-  width: 80%; /* Ajuste a largura do container conforme necessário */
-  margin: 0 auto; /* Centraliza o container na página */
-  padding: 20px;
-}
 
 /* Estilo para cada item individual (filmes, séries, etc.) */
 .item {
-  display: block; /* Faz cada item ocupar uma linha completa */
-  margin-bottom: 20px; /* Espaçamento entre os itens */
-  padding: 15px; /* Espaçamento interno dos itens */
-  border: 1px solid #ddd; /* Borda sutil ao redor de cada item */
-  border-radius: 5px; /* Bordas arredondadas */
-  background-color: #f9f9f9; /* Cor de fundo dos itens */
-  text-decoration: none; /* Remove o sublinhado dos links, se for o caso */
+display: block; /* Faz cada item ocupar uma linha completa */
+margin-bottom: 20px; /* Espaçamento entre os itens */
+padding: 15px; /* Espaçamento interno dos itens */
+border: 1px solid #ddd; /* Borda sutil ao redor de cada item */
+border-radius: 5px; /* Bordas arredondadas */
+background-color: #f9f9f9; /* Cor de fundo dos itens */
+text-decoration: none; /* Remove o sublinhado dos links, se for o caso */
 }
 
 /* Estilo para o título dos itens (se houver) */
 .item-title {
-  font-size: 1.5em; /* Tamanho da fonte para o título */
-  font-weight: bold; /* Título em negrito */
-  color: #333; /* Cor do texto do título */
-  margin-bottom: 10px; /* Espaçamento abaixo do título */
+font-size: 1.5em; /* Tamanho da fonte para o título */
+font-weight: bold; /* Título em negrito */
+color: #333; /* Cor do texto do título */
+margin-bottom: 10px; /* Espaçamento abaixo do título */
 }
 
 /* Estilo opcional para o texto do item */
 .item-description {
-  font-size: 1em; /* Tamanho da fonte para a descrição */
-  color: #666; /* Cor do texto da descrição */
+font-size: 1em; /* Tamanho da fonte para a descrição */
+color: #666; /* Cor do texto da descrição */
 }
 
 /* Se os itens forem links, adicione um estilo adicional */
 .item a {
-  color: inherit; /* Garante que o link herde a cor do item */
-  text-decoration: none; /* Remove o sublinhado do link */
+color: inherit; /* Garante que o link herde a cor do item */
+text-decoration: none; /* Remove o sublinhado do link */
 }
-
