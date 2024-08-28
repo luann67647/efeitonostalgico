@@ -1,6 +1,4 @@
-
-const movies  = 
-[
+const movies = [
     { 
         "title": "Descendentes 4: A Ascensão de Copas", 
         "img": "https://upload.wikimedia.org/wikipedia/pt/b/bd/DescendantsRiseofRed.jpg", 
@@ -80,24 +78,277 @@ const movies  =
         "genre": "Horror", 
         "duration": "112 min", 
         "year": "2013" 
+    },
+    
+    
+    { 
+        "title": "Freira 2", 
+        "img": "https://br.web.img2.acsta.net/c_310_420/pictures/23/07/11/23/06/0833684.jpg", 
+        "link": "https://drive.google.com/file/d/1QnvEEq0_si5DmucRhe2_BViGAELuE0PE/view?pli=1", 
+        "genre": "Horror", 
+        "duration": "N/A", 
+        "year": "2024" 
+    },
+    { 
+        "title": "It: A Coisa", 
+        "img": "https://br.web.img3.acsta.net/pictures/17/03/30/22/44/345288.jpg", 
+        "link": "https://drive.google.com/file/d/1s9lQPHLkkDHTI6njZr-ncaVOtHAyvY47/view", 
+        "genre": "Horror", 
+        "duration": "135 min", 
+        "year": "2017" 
+    },
+    { 
+        "title": "It: A Coisa - Capítulo 2", 
+        "img": "https://br.web.img2.acsta.net/pictures/19/08/14/16/00/5320567.jpg", 
+        "link": "https://drive.google.com/file/d/1UsLKr-CLtEhBDHonqO1139BdWZt2v098/view", 
+        "genre": "Horror", 
+        "duration": "169 min", 
+        "year": "2019" 
+    },
+    { 
+        "title": "A Morte do Demônio: A Ascensão", 
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPV_J_uokPBXOperADzDoPO6oFj324tE6x7w&s", 
+        "link": "https://drive.google.com/file/d/1TGTKCncq_dZ_nvEJRswj-mU8ADk6Qx7h/view", 
+        "genre": "Terror/Fantasia ", 
+        "duration": "2 horas", 
+        "year": "2023" 
+    },
+    { 
+        "title": "Annabelle 2: A Criação do Mal", 
+        "img": "https://br.web.img3.acsta.net/pictures/17/07/13/19/09/208315.jpg", 
+        "link": "https://drive.google.com/file/d/1p9dRfkbyg_hRtEx1b-EYow27nUJuJTQ1/view", 
+        "genre": "Horror", 
+        "duration": "109 min", 
+        "year": "2017" 
+    },
+    { 
+        "title": "Viva - A Vida É Uma Festa", 
+        "img": "https://br.web.img3.acsta.net/pictures/17/12/07/11/33/0502209.jpg", 
+        "link": "https://drive.google.com/file/d/1sDeKfKk8F-wDp3xsEW2hbmltNBQtU6o7/view", 
+        "genre": "Animation", 
+        "duration": "105 min", 
+        "year": "2017" 
+    },
+    { 
+        "title": "Zootopia", 
+        "img": "https://upload.wikimedia.org/wikipedia/pt/3/3b/ZootopiaOficialPoster.jpg", 
+        "link": "https://drive.google.com/file/d/1cpHkt1yJx9CK3zW4OVhI0WkrqAb-cNXB/view", 
+        "genre": "Animation", 
+        "duration": "108 min", 
+        "year": "2016" 
+    },
+    { 
+        "title": "Branca de Neve e os Sete Anões", 
+        "img": "https://br.web.img2.acsta.net/pictures/14/03/05/19/05/058446.jpg", 
+        "link": "https://drive.google.com/drive/folders/185ZjsY7afKNAhyzRKLo8zOdKEAlZZvHa?sort=13&direction=a", 
+        "genre": "Animation", 
+        "duration": "83 min", 
+        "year": "1937" 
+    },
+    { 
+        "title": "A Pequena Sereia", 
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiz1j0fGheX72sjo5Ixc8V5Pm_UoHykIaFxw&s", 
+        "link": "https://drive.google.com/file/d/1h7UppmL8o0EiustLV9JtSbSmRr2iS8Eb/view", 
+        "genre": "Animation", 
+        "duration": "83 min", 
+        "year": "1989" 
+    },
+    { 
+        "title": "A Bela e a Fera", 
+        "img": "https://play-lh.googleusercontent.com/8Z31HWpuQMGWx7DVHzbBdpI5KhDm1kZ2vQgsM5F9ZSocpbTNmKZ6ckFXmsHJ2fco03pTVA", 
+        "link": "https://drive.google.com/drive/folders/185ZjsY7afKNAhyzRKLo8zOdKEAlZZvHa?sort=13&direction=a", 
+        "genre": "Animation", 
+        "duration": "84 min", 
+        "year": "1991" 
+    },
+    { 
+        "title": "A Princesa e o Sapo", 
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpka6lhkVJsFjkMqCML8CcOh8qaShnTJalWQ&s", 
+        "link": "https://drive.google.com/drive/folders/185ZjsY7afKNAhyzRKLo8zOdKEAlZZvHa?sort=13&direction=a", 
+        "genre": "Animation", 
+        "duration": "97 min", 
+        "year": "2009" 
+    },
+    { 
+        "title": "Cinderela", 
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwQ4y6pnXXKkJ2xdmxN7flRIoc_IEL08VpUQ&s", 
+        "link": "https://drive.google.com/file/d/1421D5NoVeAi-IwS9wmHHKBdq4sj2yM60/view", 
+        "genre": "Animation", 
+        "duration": "74 min", 
+        "year": "1950" 
+    },
+    { 
+        "title": "Como Eu Era Antes de Você", 
+        "img": "https://m.media-amazon.com/images/S/pv-target-images/8a91710a1397dc58e6265d61409e1eb4e399e6c196732ebbe0438eb4919a4c8c.jpg", 
+        "link": "https://t.co/Hjybfz8AzM", 
+        "genre": "‧ Romance/Drama ", 
+        "duration": "1h 50m", 
+        "year": "2016" 
+    },
+    { 
+        "title": "Frozen - Uma Aventura Congelante", 
+        "img": "https://br.web.img2.acsta.net/pictures/210/461/21046189_20131002174340886.jpg", 
+        "link": "https://drive.google.com/drive/folders/185ZjsY7afKNAhyzRKLo8zOdKEAlZZvHa?sort=13&direction=a", 
+        "genre": "Animation", 
+        "duration": "102 min", 
+        "year": "2013" 
+    },
+    { 
+        "title": "Frozen II", 
+        "img": "https://i.scdn.co/image/ab67616d0000b2738ee293607c14078e74563944", 
+        "link": "https://drive.google.com/file/d/1obj589cHFjEW-cIa6u-cDgGcQHHYc6Gs/view", 
+        "genre": "Animation", 
+        "duration": "103 min", 
+        "year": "2019" 
+    },
+    { 
+        "title": "Valente", 
+        "img": "https://br.web.img3.acsta.net/medias/nmedia/18/89/92/72/20126088.jpg", 
+        "link": "https://drive.google.com/drive/folders/185ZjsY7afKNAhyzRKLo8zOdKEAlZZvHa?sort=13&direction=a", 
+        "genre": "Animation", 
+        "duration": "93 min", 
+        "year": "2012" 
+    },
+    { 
+        "title": "Moana", 
+        "img": "https://upload.wikimedia.org/wikipedia/pt/4/46/Moana_movie_poster_p_2016.jpg", 
+        "link": "https://drive.google.com/drive/folders/185ZjsY7afKNAhyzRKLo8zOdKEAlZZvHa?sort=13&direction=a", 
+        "genre": "Animation", 
+        "duration": "107 min", 
+        "year": "2016" 
     }
-]
-   
-
-const series = [
-    { title: 'O Castelo Rá-Tim-Bum', img: 'https://m.media-amazon.com/images/M/MV5BNTllYmZmNDAtZTU2ZC00MWVhLWIzYzUtMjQzYmEwYTgwNDNkXkEyXkFqcGdeQXVyMTY2MzYyNzA@._V1_FMjpg_UX1000_.jpg', link: 'https://libreflix.org/assistir/castelo-ratimbum', genre: 'Children', duration: '30 min/episódio', year: '1994', seasons: { 'Temporada 1': ['Episódio 1'] } },
-    { title: 'Gravity Falls', img: 'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/03A4EB3D71AE0BE1E33A9FC6A0D7DF2C2679A96CB22F776104E43F563BA014C9/scale?width=1200&aspectRatio=1.78&format=webp', link: 'https://drive.google.com/drive/folders/1hV7rvy7XGOw1KJxDQ_0JKIgE3en8fMLn', genre: 'Adventure', duration: '22 min/episódio', year: '2012', seasons: { 'Temporada 1': ['Episódio 1'] } },
-    { title: 'Avatar: A Lenda de Aang', img: 'https://m.media-amazon.com/images/I/71mhp9pzo3L._AC_UF1000,1000_QL80_.jpg', link: 'https://drive.google.com/drive/folders/1VFOwJBBEAMuBasP58MZS9B0AtgWVGdfV', genre: 'Adventure', duration: '23 min/episódio', year: '2005', seasons: { 'Temporada 1': ['Episódio 1'] } },
-    { title: 'Doug', img: 'https://m.media-amazon.com/images/M/MV5BNTMzYThjZjUtYzBiOS00YjQyLTgzZGMtNjg3OTU3MDA3NWYyXkEyXkFqcGdeQXVyODUwNjEzMzg@._V1_FMjpg_UX1000_.jpg', link: 'https://drive.google.com/drive/folders/0B5yM7A4o8Y7NaEUtLThvejJQQ1U?resourcekey=0-fykuEpEdO9AZJFqeyJGOMQ', genre: 'Comedy', duration: '30 min/episódio', year: '1971', seasons: { 'Temporada 1': ['Episódio 1'] } },
-    { title: 'As Três Espiãs Demais', img: 'https://yt3.googleusercontent.com/vfv3zX-Nnb_mYUuQxMC54agtVbueMNFyRLTbOGUvH9vcyu-LDXJp-QMI-1mrBx8A4DFs4hMQ=s900-c-k-c0x00ffffff-no-rj', link: 'https://youtu.be/di3Ja7rMkd0?list=PLlx1Jroya6QUJaIofIGdHV27NVtdnFlWn', genre: 'Adventure', duration: '22 min/episódio', year: '2001', seasons: { 'Temporada 1': ['Episódio 1'] } },
-    { title: 'Luluzinha', img: 'https://i.pinimg.com/236x/17/a4/1f/17a41f17eed5df0356aa50978a75107e.jpg', link: 'https://youtu.be/8Fbg-fdS_6Y', genre: 'Comedy', duration: '22 min/episódio', year: '1959', seasons: { 'Temporada 1': ['Episódio 1'] } },
-    { title: 'Chaves', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-UTVgI2On-9XMhThudbDG7Yy68V6A1L-iO8SwgcFH_L-Y2rTWe9tIL5_hrbtcpFvy9pk&usqp=CAU', link: 'https://youtu.be/dtnt7yrFQ_c', genre: 'Comedy', duration: '30 min/episódio', year: '1971', seasons: { 'Temporada 1': ['Episódio 1'] } },
-    { title: 'Chaves (Desenho)', img: 'https://br.web.img3.acsta.net/pictures/22/10/14/21/15/3674980.jpg', link: 'https://youtu.be/gVo4NB04h3g', genre: 'Comedy', duration: '22 min/episódio', year: '2006', seasons: { 'Temporada 1': ['Episódio 1'] } },
-    { title: 'Pica-Pau', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvVxYxOjNQMJaGzyOUrL3WzjNaYV3URD_1EA&s', link: 'https://youtu.be/khaqJBl5T-A', genre: 'Comedy', duration: '22 min/episódio', year: '1957', seasons: { 'Temporada 1': ['Episódio 1'] } },
-    { title: 'The Good Doctor', img: 'https://br.web.img3.acsta.net/c_310_420/pictures/18/09/20/17/08/1922378.jpg', link: 'https://drive.google.com/drive/folders/18BaeM7KOXa3-8mHI8m1Yb-AXKFPELqNw', genre: 'Drama', duration: '42 min/episódio', year: '2017', seasons: { 'Temporada 2': ['Episódio 1'] } }
 ];
 
 
+const series = [
+    { 
+        title: 'O Castelo Rá-Tim-Bum', 
+        img: 'https://m.media-amazon.com/images/M/MV5BNTllYmZmNDAtZTU2ZC00MWVhLWIzYzUtMjQzYmEwYTgwNDNkXkEyXkFqcGdeQXVyMTY2MzYyNzA@._V1_FMjpg_UX1000_.jpg', 
+        link: 'https://libreflix.org/assistir/castelo-ratimbum', 
+        genre: 'Children', 
+        duration: '30 min/episódio', 
+        year: '1994', 
+        seasons: { 'Temporada 1': ['Episódio 1'] } 
+    },
+    { 
+        title: 'Gravity Falls', 
+        img: 'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/03A4EB3D71AE0BE1E33A9FC6A0D7DF2C2679A96CB22F776104E43F563BA014C9/scale?width=1200&aspectRatio=1.78&format=webp', 
+        link: 'https://drive.google.com/drive/folders/1hV7rvy7XGOw1KJxDQ_0JKIgE3en8fMLn', 
+        genre: 'Adventure', 
+        duration: '22 min/episódio', 
+        year: '2012', 
+        seasons: { 'Temporada 1': ['Episódio 1'] } 
+    },
+    { 
+        title: 'Avatar: A Lenda de Aang', 
+        img: 'https://m.media-amazon.com/images/I/71mhp9pzo3L._AC_UF1000,1000_QL80_.jpg', 
+        link: 'https://drive.google.com/drive/folders/1VFOwJBBEAMuBasP58MZS9B0AtgWVGdfV', 
+        genre: 'Adventure', 
+        duration: '23 min/episódio', 
+        year: '2005', 
+        seasons: { 'Temporada 1': ['Episódio 1'] } 
+    },
+    { 
+        title: 'Doug', 
+        img: 'https://m.media-amazon.com/images/M/MV5BNTMzYThjZjUtYzBiOS00YjQyLTgzZGMtNjg3OTU3MDA3NWYyXkEyXkFqcGdeQXVyODUwNjEzMzg@._V1_FMjpg_UX1000_.jpg', 
+        link: 'https://drive.google.com/drive/folders/0B5yM7A4o8Y7NaEUtLThvejJQQ1U?resourcekey=0-fykuEpEdO9AZJFqeyJGOMQ', 
+        genre: 'Comedy', 
+        duration: '30 min/episódio', 
+        year: '1971', 
+        seasons: { 'Temporada 1': ['Episódio 1'] } 
+    },
+    { 
+        title: 'As Três Espiãs Demais', 
+        img: 'https://yt3.googleusercontent.com/vfv3zX-Nnb_mYUuQxMC54agtVbueMNFyRLTbOGUvH9vcyu-LDXJp-QMI-1mrBx8A4DFs4hMQ=s900-c-k-c0x00ffffff-no-rj', 
+        link: 'https://youtu.be/di3Ja7rMkd0?list=PLlx1Jroya6QUJaIofIGdHV27NVtdnFlWn', 
+        genre: 'Adventure', 
+        duration: '22 min/episódio', 
+        year: '2001', 
+        seasons: { 'Temporada 1': ['Episódio 1'] } 
+    },
+    { 
+        title: 'Luluzinha', 
+        img: 'https://i.pinimg.com/236x/17/a4/1f/17a41f17eed5df0356aa50978a75107e.jpg', 
+        link: 'https://youtu.be/8Fbg-fdS_6Y', 
+        genre: 'Comedy', 
+        duration: '22 min/episódio', 
+        year: '1959', 
+        seasons: { 'Temporada 1': ['Episódio 1'] } 
+    },
+    { 
+        title: 'Chaves', 
+        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-UTVgI2On-9XMhThudbDG7Yy68V6A1L-iO8SwgcFH_L-Y2rTWe9tIL5_hrbtcpFvy9pk&usqp=CAU', 
+        link: 'https://youtu.be/dtnt7yrFQ_c', 
+        genre: 'Comedy', 
+        duration: '30 min/episódio', 
+        year: '1971', 
+        seasons: { 'Temporadas': ['Episódios'] } 
+    },
+    { 
+        title: 'Chaves (Desenho)', 
+        img: 'https://br.web.img3.acsta.net/pictures/22/10/14/21/15/3674980.jpg', 
+        link: 'https://youtu.be/gVo4NB04h3g', 
+        genre: 'Comedy', 
+        duration: '22 min/episódio', 
+        year: '2006', 
+        seasons: { 'Temporadas': ['Episódios'] } 
+    },
+    { 
+        title: 'Pica-Pau', 
+        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvVxYxOjNQMJaGzyOUrL3WzjNaYV3URD_1EA&s', 
+        link: 'https://youtu.be/khaqJBl5T-A', 
+        genre: 'Comedy', 
+        duration: '22 min/episódio', 
+        year: '1957', 
+        seasons: { 'Temporada ': ['Episódio '] } 
+    },
+    { 
+        title: 'The Good Doctor', 
+        img: 'https://imagem.natelinha.uol.com.br/original/the-good-doctor_52a08d58feab6c8bc623ad4ef8ee65055d8f5744.jpeg', 
+        link: 'https://drive.google.com/drive/folders/18BaeM7KOXa3-8mHI8m1Yb-AXKFPELqNw', 
+        genre: 'Drama', 
+        duration: '42 min/episódio', 
+        year: '2017', 
+        seasons: { 'Temporadas': ['Episódios'] } 
+    },
+    { 
+        title: 'The Walking Dead', 
+        img: 'https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/933E0D6CAF547F41DEB8C66ECE2DC2B7246A6590FF25AEA936859FE934336EB5/scale?width=1200&aspectRatio=1.78&format=webp', 
+        link: 'https://drive.google.com/drive/folders/1mzopVP0f5b3VgJlYdfK6SXj-grdXzOZm', 
+        genre: 'Drama', 
+        duration: '45 min/episódio', 
+        year: '2010', 
+        seasons: { 'Temporada 1': ['Episódio 1 ao 5'] } 
+    },
+    { 
+        title: 'Grey\'s Anatomy', 
+        img: 'https://m.media-amazon.com/images/S/pv-target-images/6b2feb3599f724635750a996c5d883d1e53db37132b15e7776d89c94ab4f4200.jpg', 
+        link: 'https://t.co/FeoscrhSbo', 
+        genre: 'Drama', 
+        duration: '41 min/episódio', 
+        year: '2005', 
+        seasons: { 'Temporada 1': ['Episódio 1'] } 
+    },
+    { 
+        title: 'The Umbrella Academy', 
+        img: 'https://br.web.img3.acsta.net/pictures/18/12/10/14/01/0178829.jpg', 
+        link: 'https://drive.google.com/drive/folders/1iqd1eyNRwep3ZS-kEV0PUFW62nnWYrp_', 
+        genre: 'Action', 
+        duration: '50 min/episódio', 
+        year: '2019', 
+        seasons: { 'Temporada 1': ['Episódio 1 Ao 11'] } 
+    },
+    { 
+        title: 'The 100', 
+        img: 'https://m.media-amazon.com/images/S/pv-target-images/860fe0991fc2e994b91ff8e8532749df5a3d777c42720cc3e2460bd29a605940.jpg', 
+        link: 'https://drive.google.com/drive/folders/10XjReoclJjr4d3rvb7RS8vdzSlDjcf-J', 
+        genre: 'Drama ', 
+        duration: '50 min/episódio', 
+        year: '2014', 
+        seasons: { 'Temporada': ['Episódios'] } 
+
+    }
+];
 
 const novelas = [
     { 
@@ -575,4 +826,5 @@ document.querySelectorAll('.carousel-item').forEach(item => {
         
     });
 });
+
 
