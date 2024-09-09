@@ -210,13 +210,18 @@ const movies = [
         "year": "2012" 
     },
     { 
-        "title": "Moana", 
-        "img": "https://upload.wikimedia.org/wikipedia/pt/4/46/Moana_movie_poster_p_2016.jpg", 
-        "link": "https://drive.google.com/drive/folders/185ZjsY7afKNAhyzRKLo8zOdKEAlZZvHa?sort=13&direction=a", 
-        "genre": "Animation", 
-        "duration": "107 min", 
-        "year": "2016" 
+       
+            "title": "Doutor Estranho",
+            "img": "https://images.justwatch.com/poster/16376003/s332/doutor-estranho-2016",
+            "link": "https://drive.google.com/drive/folders/1oQZEBxkO4BB2tNQjzOjb3r-hWm6sW5-z?usp=sharing",
+            "genre": "Ação / Fantasia",
+            "duration": "115 min",
+            "year": "2016"
+          
+          
     }
+    
+
 ];
 
 
@@ -826,5 +831,7 @@ document.querySelectorAll('.carousel-item').forEach(item => {
         
     });
 });
+
+
 
 
