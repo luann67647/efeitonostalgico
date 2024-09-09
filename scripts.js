@@ -139,7 +139,7 @@ const movies = [
     },
     { 
         "title": "Os Feiticeiros Retornam: Alex vs. Alex", 
-        "img": "https://upload.wikimedia.org/wikipedia/pt/1/1d/The_Wizards_Return_Alex_vs._Alex.jpg", 
+        "img": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/955C3C56EC9B147A15BCCE47F1AF29324B5E1FDA24DDD179B22E62CA44EE599D/scale?width=1200&amp;aspectRatio=1.78&amp;format=webp", 
         "link": "https://drive.google.com/file/d/12OSMtvm6_pKY6cTUlguqxEhX8i5Bst8G/view", 
         "genre": "Comédia", 
         "duration": "1 hora", 
